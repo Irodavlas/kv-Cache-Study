@@ -87,7 +87,7 @@ cp .env.example .env
 ```
 
 Add your Hugging Face access token to `.env`:
-files
+
 ```text
 HF_TOKEN=your_huggingface_token
 ```
