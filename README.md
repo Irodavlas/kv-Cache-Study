@@ -1,28 +1,30 @@
 # cacheStudy
 
-This project contains implementations and evaluation tools for various KV cache compression and merging techniques. 
+This project contains implementations and evaluation tools for various **KV cache compression, quantization, and token merging techniques** for Large Language Models.
 
-## Project Structure
+---
 
-The project is organized to separate cache implementations, evaluation logic, and dataset tasks. An overview of the file hierarchy is shown below:
+# Project Structure
+
+The repository is organized to separate cache implementations, evaluation scripts, datasets, and experimental results.
 
 ```text
 cacheStudy/
-├── benchmark/           # Dataset tasks
+├── benchmark/                   # Dataset tasks
 │   └── ruler/
-├── evaluation/          # Evaluation scripts
+├── evaluation/                  # Evaluation scripts
 │   ├── diagnostic_merging.py
 │   ├── eval_baselines.py
 │   ├── eval_caches.py
 │   ├── eval_merging.py
 │   └── eval_zipcache.py
-├── kvcache/             # KV cache implementations
+├── kvcache/                     # KV cache implementations
 │   ├── int4.py
 │   ├── int8.py
 │   ├── merge.py
 │   └── zipcache.py
-├── model/
-└── results/             # Evaluation outputs
+├── model/                       # Downloaded LLM weights
+└── results/                     # Evaluation outputs
     ├── baseline/
     ├── int4/
     ├── int8/
@@ -31,45 +33,101 @@ cacheStudy/
         └── diagnostics/
 ```
 
-Directory Details
-benchmark/ruler/: Contains the dataset tasks used for evaluation.
+---
 
-evaluation/: Contains scripts to test different KV cache versions.
+# Directory Overview
 
-diagnostic_merging.py: Calculates the cosine similarity of non-salient tokens and saves the resulting visualizations to results/zipcache/diagnostics/.
+### `benchmark/ruler/`
+Contains the benchmark datasets used during evaluation.
 
-kvcache/: Contains the core implementations for the cache versions.
+### `evaluation/`
+Contains scripts used to evaluate different KV cache implementations.
 
-results/: Stores the output of evaluation runs in JSON format, organized by their corresponding KV cache type.
+| Script | Description |
+|---------|-------------|
+| `diagnostic_merging.py` | Computes cosine similarity between non-salient tokens and generates diagnostic visualizations saved under `results/zipcache/diagnostics/`. |
+| `eval_baselines.py` | Evaluates the baseline FP16 model. |
+| `eval_caches.py` | Evaluates quantized KV cache implementations. |
+| `eval_merging.py` | Evaluates token merging approaches. |
+| `eval_zipcache.py` | Evaluates the ZipCache implementation. |
 
-Running the Project
-1. Environment Setup
-Before running the project, you must prepare the directory structure and authentication:
+### `kvcache/`
+Contains the implementations of the supported KV cache methods:
+
+- `int4.py` — 4-bit KV cache
+- `int8.py` — 8-bit KV cache
+- `merge.py` — Token merging cache
+- `zipcache.py` — ZipCache implementation
+
+### `results/`
+Stores evaluation outputs (primarily JSON files), grouped by the evaluated cache implementation.
+
+---
+
+# Getting Started
+
+## 1. Environment Setup
 
 Create the model directory:
 
-Bash
+```bash
 mkdir -p model
-Create your .env file from the example:
+```
 
-Bash
+Create your environment configuration:
+
+```bash
 cp .env.example .env
-Add your Hugging Face token to the .env file:
+```
 
-Plaintext
-HF_TOKEN=your_token_here
-2. Download the Model
-Download the base model into the model/ directory using the provided script:
+Add your Hugging Face access token to `.env`:
 
-Bash
+```text
+HF_TOKEN=your_huggingface_token
+```
+
+---
+
+## 2. Download the Model
+
+Download the base model into the `model/` directory:
+
+```bash
 python3 main.py
-3. Execution via Docker
-This project uses Docker Compose for execution. To run specific evaluation scripts, use the following command structure:
+```
 
-Bash
+---
+
+## 3. Running Evaluations
+
+The project is designed to run inside Docker using Docker Compose.
+
+General command:
+
+```bash
 docker compose run --rm evaluator python3 <path_to_script>
-Example:
-To run the diagnostic merging script:
+```
 
-Bash
+For example, to run the diagnostic merging evaluation:
+
+```bash
 docker compose run --rm evaluator python3 evaluation/diagnostic_merging.py
+```
+
+Other examples:
+
+```bash
+docker compose run --rm evaluator python3 evaluation/eval_baselines.py
+```
+
+```bash
+docker compose run --rm evaluator python3 evaluation/eval_caches.py
+```
+
+```bash
+docker compose run --rm evaluator python3 evaluation/eval_merging.py
+```
+
+```bash
+docker compose run --rm evaluator python3 evaluation/eval_zipcache.py
+```
