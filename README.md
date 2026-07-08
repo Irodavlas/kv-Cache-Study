@@ -47,8 +47,8 @@ Contains scripts used to evaluate different KV cache implementations.
 |---------|-------------|
 | `diagnostic_merging.py` | Computes cosine similarity between non-salient tokens and generates diagnostic visualizations saved under `results/zipcache/diagnostics/`. |
 | `eval_baselines.py` | Evaluates the baseline FP16 model. |
-| `eval_caches.py` | Evaluates quantized KV cache implementations. |
-| `eval_merging.py` | Evaluates token merging approaches. |
+| `eval_caches.py` | Evaluates quantized (4 or 8) KV cache implementations. |
+| `eval_merging.py` | Evaluates token merging approach. |
 | `eval_zipcache.py` | Evaluates the ZipCache implementation. |
 
 ### `kvcache/`
@@ -59,8 +59,8 @@ Contains the implementations of the supported KV cache methods:
 - `merge.py` — Token merging cache
 - `zipcache.py` — ZipCache implementation
 
-### `results/`
-Stores evaluation outputs (primarily JSON files), grouped by the evaluated cache implementation.
+### `results/`files
+Stores evaluation outputs, grouped by the evaluated cache implementation.
 
 ---
 
@@ -81,7 +81,7 @@ cp .env.example .env
 ```
 
 Add your Hugging Face access token to `.env`:
-
+files
 ```text
 HF_TOKEN=your_huggingface_token
 ```
