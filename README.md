@@ -1,4 +1,4 @@
-# cacheStudy
+# KV Cache Study
 
 This project contains implementations and evaluation tools for various **KV cache compression, quantization, and token merging techniques** for Large Language Models.
 
@@ -65,6 +65,12 @@ Stores evaluation outputs, grouped by the evaluated cache implementation.
 ---
 
 # Getting Started
+
+Install the required packages:
+
+```bash
+python3 -m pip install -r requirements.setup.txt
+```
 
 ## 1. Environment Setup
 
