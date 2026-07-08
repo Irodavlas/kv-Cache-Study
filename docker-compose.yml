@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  evaluator:
+    build: .
+    container_name: kv_cache_container
+    ipc: host
+    volumes:
+      - .:/workspace
+    environment:
+      - PYTHONPATH=/workspace
+      - HF_TOKEN=${HF_TOKEN}
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    # Keeps container active for interactive command execution
+    stdin_open: true
+    tty: true

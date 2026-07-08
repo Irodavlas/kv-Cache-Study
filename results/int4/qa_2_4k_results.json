@@ -1,0 +1,5511 @@
+{
+    "task": "qa_2_4k",
+    "precision_mode": "int4",
+    "score": 0.532,
+    "num_examples": 500,
+    "weights_mb": 6128.3349609375,
+    "avg_kv_cache_mb": 105.2367080078125,
+    "peak_kv_cache_mb": 128.5198974609375,
+    "predictions": [
+        {
+            "index": 0,
+            "prompt_length": 3960,
+            "ground_truth_options": [
+                "yes"
+            ],
+            "prediction": "No",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 124.251708984375
+        },
+        {
+            "index": 1,
+            "prompt_length": 3913,
+            "ground_truth_options": [
+                "Chief of Protocol"
+            ],
+            "prediction": "None",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 122.7657470703125
+        },
+        {
+            "index": 2,
+            "prompt_length": 2900,
+            "ground_truth_options": [
+                "Animorphs"
+            ],
+            "prediction": "Animorphs",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 90.8017578125
+        },
+        {
+            "index": 3,
+            "prompt_length": 3634,
+            "ground_truth_options": [
+                "no"
+            ],
+            "prediction": "Yes",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 113.94482421875
+        },
+        {
+            "index": 4,
+            "prompt_length": 3917,
+            "ground_truth_options": [
+                "Greenwich Village, New York City"
+            ],
+            "prediction": "Brooklyn",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 122.8922119140625
+        },
+        {
+            "index": 5,
+            "prompt_length": 2546,
+            "ground_truth_options": [
+                "YG Entertainment"
+            ],
+            "prediction": "YG Entertainment",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 79.609619140625
+        },
+        {
+            "index": 6,
+            "prompt_length": 3490,
+            "ground_truth_options": [
+                "Eenasul Fateh"
+            ],
+            "prediction": "Eenasul Fateh",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 109.5185546875
+        },
+        {
+            "index": 7,
+            "prompt_length": 3010,
+            "ground_truth_options": [
+                "3,677 seated"
+            ],
+            "prediction": "3,677",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 94.3111572265625
+        },
+        {
+            "index": 8,
+            "prompt_length": 4048,
+            "ground_truth_options": [
+                "Terry Richardson"
+            ],
+            "prediction": "Terry Richardson",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 127.0655517578125
+        },
+        {
+            "index": 9,
+            "prompt_length": 2403,
+            "ground_truth_options": [
+                "yes"
+            ],
+            "prediction": "Yes",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 75.0252685546875
+        },
+        {
+            "index": 10,
+            "prompt_length": 3917,
+            "ground_truth_options": [
+                "Kansas Song"
+            ],
+            "prediction": "Kansas Song",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 122.923828125
+        },
+        {
+            "index": 11,
+            "prompt_length": 3936,
+            "ground_truth_options": [
+                "David Weissman"
+            ],
+            "prediction": "David Weissman",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 123.55615234375
+        },
+        {
+            "index": 12,
+            "prompt_length": 2940,
+            "ground_truth_options": [
+                "1999"
+            ],
+            "prediction": "1999",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 92.06640625
+        },
+        {
+            "index": 13,
+            "prompt_length": 2790,
+            "ground_truth_options": [
+                "no"
+            ],
+            "prediction": "Yes",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 87.2607421875
+        },
+        {
+            "index": 14,
+            "prompt_length": 3321,
+            "ground_truth_options": [
+                "from 1986 to 2013"
+            ],
+            "prediction": "1986-2013",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 104.20703125
+        },
+        {
+            "index": 15,
+            "prompt_length": 3880,
+            "ground_truth_options": [
+                "9,984"
+            ],
+            "prediction": "9,984",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 121.8172607421875
+        },
+        {
+            "index": 16,
+            "prompt_length": 3939,
+            "ground_truth_options": [
+                "the North Atlantic Conference"
+            ],
+            "prediction": "The North Atlantic Conference.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 123.7142333984375
+        },
+        {
+            "index": 17,
+            "prompt_length": 3088,
+            "ground_truth_options": [
+                "yes"
+            ],
+            "prediction": "Yes",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 96.682373046875
+        },
+        {
+            "index": 18,
+            "prompt_length": 2676,
+            "ground_truth_options": [
+                "1969 until 1974"
+            ],
+            "prediction": "The Nixon administration (1969-1974).",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 83.9410400390625
+        },
+        {
+            "index": 19,
+            "prompt_length": 3735,
+            "ground_truth_options": [
+                "Robert Erskine Childers DSC"
+            ],
+            "prediction": "Robert Erskine Childers",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 117.296142578125
+        },
+        {
+            "index": 20,
+            "prompt_length": 2689,
+            "ground_truth_options": [
+                "Pedro Rodr\u00edguez"
+            ],
+            "prediction": "Pedro Rodr\u00edguez",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 84.162353515625
+        },
+        {
+            "index": 21,
+            "prompt_length": 3071,
+            "ground_truth_options": [
+                "Sonic"
+            ],
+            "prediction": "Tails",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 96.176513671875
+        },
+        {
+            "index": 22,
+            "prompt_length": 3293,
+            "ground_truth_options": [
+                "keyboard function keys"
+            ],
+            "prediction": "Front Row",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 103.1953125
+        },
+        {
+            "index": 23,
+            "prompt_length": 3756,
+            "ground_truth_options": [
+                "Badly Drawn Boy"
+            ],
+            "prediction": "Badly Drawn Boy",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 117.928466796875
+        },
+        {
+            "index": 24,
+            "prompt_length": 4082,
+            "ground_truth_options": [
+                "World's Best Goalkeeper"
+            ],
+            "prediction": "Peter Schmeichel",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 128.2037353515625
+        },
+        {
+            "index": 25,
+            "prompt_length": 3566,
+            "ground_truth_options": [
+                "Barton Lee Hazlewood"
+            ],
+            "prediction": "Lee Hazlewood",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 111.8897705078125
+        },
+        {
+            "index": 26,
+            "prompt_length": 3642,
+            "ground_truth_options": [
+                "1838"
+            ],
+            "prediction": "1838",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 114.260986328125
+        },
+        {
+            "index": 27,
+            "prompt_length": 3864,
+            "ground_truth_options": [
+                "yes"
+            ],
+            "prediction": "Yes",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 121.216552734375
+        },
+        {
+            "index": 28,
+            "prompt_length": 3068,
+            "ground_truth_options": [
+                "Henry J. Kaiser"
+            ],
+            "prediction": "Henry J. Kaiser",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 96.1448974609375
+        },
+        {
+            "index": 29,
+            "prompt_length": 3941,
+            "ground_truth_options": [
+                "Arena of Khazan"
+            ],
+            "prediction": "Arena of Khazan",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 123.7774658203125
+        },
+        {
+            "index": 30,
+            "prompt_length": 3026,
+            "ground_truth_options": [
+                "2000"
+            ],
+            "prediction": "2000",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 94.785400390625
+        },
+        {
+            "index": 31,
+            "prompt_length": 3873,
+            "ground_truth_options": [
+                "Fujioka, Gunma"
+            ],
+            "prediction": "Japan",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 121.5010986328125
+        },
+        {
+            "index": 32,
+            "prompt_length": 3978,
+            "ground_truth_options": [
+                "Charles Eug\u00e8ne"
+            ],
+            "prediction": "Charles Nungesser",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 124.9156494140625
+        },
+        {
+            "index": 33,
+            "prompt_length": 3243,
+            "ground_truth_options": [
+                "no"
+            ],
+            "prediction": "Yes",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 101.5828857421875
+        },
+        {
+            "index": 34,
+            "prompt_length": 4010,
+            "ground_truth_options": [
+                "Letters to Cleo"
+            ],
+            "prediction": "Letters to Cleo",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 125.9273681640625
+        },
+        {
+            "index": 35,
+            "prompt_length": 3300,
+            "ground_truth_options": [
+                "October 1922"
+            ],
+            "prediction": "1923",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 103.4482421875
+        },
+        {
+            "index": 36,
+            "prompt_length": 3905,
+            "ground_truth_options": [
+                "2000"
+            ],
+            "prediction": "2000.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 122.607666015625
+        },
+        {
+            "index": 37,
+            "prompt_length": 3739,
+            "ground_truth_options": [
+                "World War II"
+            ],
+            "prediction": "World War II",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 117.3277587890625
+        },
+        {
+            "index": 38,
+            "prompt_length": 4041,
+            "ground_truth_options": [
+                "no"
+            ],
+            "prediction": "No",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 126.8126220703125
+        },
+        {
+            "index": 39,
+            "prompt_length": 3681,
+            "ground_truth_options": [
+                "New York City"
+            ],
+            "prediction": "Columbia",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 115.4307861328125
+        },
+        {
+            "index": 40,
+            "prompt_length": 3190,
+            "ground_truth_options": [
+                "Scotch Collie"
+            ],
+            "prediction": "The Scotch Collie",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 100.0020751953125
+        },
+        {
+            "index": 41,
+            "prompt_length": 3478,
+            "ground_truth_options": [
+                "Mumbai"
+            ],
+            "prediction": "Kochi",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 109.0443115234375
+        },
+        {
+            "index": 42,
+            "prompt_length": 2958,
+            "ground_truth_options": [
+                "1962"
+            ],
+            "prediction": "1962",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 92.635498046875
+        },
+        {
+            "index": 43,
+            "prompt_length": 3890,
+            "ground_truth_options": [
+                "sovereignty"
+            ],
+            "prediction": "Ethiopian sovereignty and freedom from colonization.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 122.228271484375
+        },
+        {
+            "index": 44,
+            "prompt_length": 2711,
+            "ground_truth_options": [
+                "Nelson Rockefeller"
+            ],
+            "prediction": "Nelson Rockefeller",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 84.794677734375
+        },
+        {
+            "index": 45,
+            "prompt_length": 3276,
+            "ground_truth_options": [
+                "Yellowcraig"
+            ],
+            "prediction": "Firth of Forth",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 102.752685546875
+        },
+        {
+            "index": 46,
+            "prompt_length": 2524,
+            "ground_truth_options": [
+                "Phil Spector"
+            ],
+            "prediction": "Phil Spector",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 78.9140625
+        },
+        {
+            "index": 47,
+            "prompt_length": 3908,
+            "ground_truth_options": [
+                "Organizations could come together to address global issues"
+            ],
+            "prediction": "World Summit of Nobel Peace Laureates",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 122.79736328125
+        },
+        {
+            "index": 48,
+            "prompt_length": 2740,
+            "ground_truth_options": [
+                "yes"
+            ],
+            "prediction": "Yes",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 85.679931640625
+        },
+        {
+            "index": 49,
+            "prompt_length": 2571,
+            "ground_truth_options": [
+                "English Electric Canberra"
+            ],
+            "prediction": "English Electric Canberra",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 80.4000244140625
+        },
+        {
+            "index": 50,
+            "prompt_length": 3716,
+            "ground_truth_options": [
+                "2009 Big 12 Conference"
+            ],
+            "prediction": "2009, Big 12 Conference",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 116.7586669921875
+        },
+        {
+            "index": 51,
+            "prompt_length": 3839,
+            "ground_truth_options": [
+                "1,462"
+            ],
+            "prediction": "1,462",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 120.52099609375
+        },
+        {
+            "index": 52,
+            "prompt_length": 3853,
+            "ground_truth_options": [
+                "Indianapolis Motor Speedway"
+            ],
+            "prediction": "Indianapolis Motor Speedway",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 120.9320068359375
+        },
+        {
+            "index": 53,
+            "prompt_length": 3665,
+            "ground_truth_options": [
+                "Rome"
+            ],
+            "prediction": "New York City",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 114.9881591796875
+        },
+        {
+            "index": 54,
+            "prompt_length": 2755,
+            "ground_truth_options": [
+                "Max Martin, Savan Kotecha and Ilya Salmanzadeh"
+            ],
+            "prediction": "Savan Kotecha, Ilya Salmanzadeh, Tove Lo, Max Martin, and Ali Payami",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 86.88134765625
+        },
+        {
+            "index": 55,
+            "prompt_length": 3316,
+            "ground_truth_options": [
+                "Marion, South Australia"
+            ],
+            "prediction": "Adelaide",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 103.890869140625
+        },
+        {
+            "index": 56,
+            "prompt_length": 2720,
+            "ground_truth_options": [
+                "Drifting"
+            ],
+            "prediction": "Drifting.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 85.11083984375
+        },
+        {
+            "index": 57,
+            "prompt_length": 2777,
+            "ground_truth_options": [
+                "Keith Bostic"
+            ],
+            "prediction": "Jerry Glanville",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 86.944580078125
+        },
+        {
+            "index": 58,
+            "prompt_length": 3019,
+            "ground_truth_options": [
+                "35,124"
+            ],
+            "prediction": "Not found",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 94.532470703125
+        },
+        {
+            "index": 59,
+            "prompt_length": 3993,
+            "ground_truth_options": [
+                "no"
+            ],
+            "prediction": "No",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 125.2950439453125
+        },
+        {
+            "index": 60,
+            "prompt_length": 2958,
+            "ground_truth_options": [
+                "shortest player ever to play in the National Basketball Association"
+            ],
+            "prediction": "The shortest player ever to play in the National Basketball Association.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 92.9200439453125
+        },
+        {
+            "index": 61,
+            "prompt_length": 2659,
+            "ground_truth_options": [
+                "Ronald Shusett"
+            ],
+            "prediction": "Gordon Carroll",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 83.150634765625
+        },
+        {
+            "index": 62,
+            "prompt_length": 3703,
+            "ground_truth_options": [
+                "Adeline Virginia Woolf"
+            ],
+            "prediction": "Virginia Woolf",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 116.1895751953125
+        },
+        {
+            "index": 63,
+            "prompt_length": 3452,
+            "ground_truth_options": [
+                "821"
+            ],
+            "prediction": "5040",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 108.25390625
+        },
+        {
+            "index": 64,
+            "prompt_length": 3778,
+            "ground_truth_options": [
+                "more than 70 countries"
+            ],
+            "prediction": "Halliburton",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 118.560791015625
+        },
+        {
+            "index": 65,
+            "prompt_length": 2919,
+            "ground_truth_options": [
+                "Charmed"
+            ],
+            "prediction": "Charmed",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 91.370849609375
+        },
+        {
+            "index": 66,
+            "prompt_length": 3230,
+            "ground_truth_options": [
+                "International Boxing Hall of Fame"
+            ],
+            "prediction": "International Boxing Hall of Fame",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 101.29833984375
+        },
+        {
+            "index": 67,
+            "prompt_length": 3297,
+            "ground_truth_options": [
+                "Usher"
+            ],
+            "prediction": "Usher",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 103.32177734375
+        },
+        {
+            "index": 68,
+            "prompt_length": 2731,
+            "ground_truth_options": [
+                "Bill Murray"
+            ],
+            "prediction": "David Hyde Pierce",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 85.490234375
+        },
+        {
+            "index": 69,
+            "prompt_length": 4062,
+            "ground_truth_options": [
+                "Carabao Cup"
+            ],
+            "prediction": "Carabao Cup",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 127.5714111328125
+        },
+        {
+            "index": 70,
+            "prompt_length": 2770,
+            "ground_truth_options": [
+                "Teen Titans Go!"
+            ],
+            "prediction": "Teen Titans",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 86.6600341796875
+        },
+        {
+            "index": 71,
+            "prompt_length": 3846,
+            "ground_truth_options": [
+                "276,170 inhabitants"
+            ],
+            "prediction": "276,170",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 120.7423095703125
+        },
+        {
+            "index": 72,
+            "prompt_length": 2994,
+            "ground_truth_options": [
+                "orange"
+            ],
+            "prediction": "Orange",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 93.71044921875
+        },
+        {
+            "index": 73,
+            "prompt_length": 2965,
+            "ground_truth_options": [
+                "Tromeo and Juliet"
+            ],
+            "prediction": "Tromeo and Juliet",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 92.9200439453125
+        },
+        {
+            "index": 74,
+            "prompt_length": 3329,
+            "ground_truth_options": [
+                "William Jefferson Clinton"
+            ],
+            "prediction": "Bill Clinton",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 104.33349609375
+        },
+        {
+            "index": 75,
+            "prompt_length": 3802,
+            "ground_truth_options": [
+                "John John Florence"
+            ],
+            "prediction": "John John Florence",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 119.319580078125
+        },
+        {
+            "index": 76,
+            "prompt_length": 2455,
+            "ground_truth_options": [
+                "Ann"
+            ],
+            "prediction": "Ward",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 76.6693115234375
+        },
+        {
+            "index": 77,
+            "prompt_length": 2686,
+            "ground_truth_options": [
+                "Apalachees"
+            ],
+            "prediction": "Ais",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 84.0042724609375
+        },
+        {
+            "index": 78,
+            "prompt_length": 3020,
+            "ground_truth_options": [
+                "British"
+            ],
+            "prediction": "British",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 94.532470703125
+        },
+        {
+            "index": 79,
+            "prompt_length": 3388,
+            "ground_truth_options": [
+                "1865"
+            ],
+            "prediction": "1865",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 106.23046875
+        },
+        {
+            "index": 80,
+            "prompt_length": 2589,
+            "ground_truth_options": [
+                "Newport"
+            ],
+            "prediction": "Lempster",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 80.9691162109375
+        },
+        {
+            "index": 81,
+            "prompt_length": 2849,
+            "ground_truth_options": [
+                "Bob Seger"
+            ],
+            "prediction": "Bob",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 89.1260986328125
+        },
+        {
+            "index": 82,
+            "prompt_length": 3214,
+            "ground_truth_options": [
+                "Conscription"
+            ],
+            "prediction": "requiring only men to register for the draft.",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 100.9189453125
+        },
+        {
+            "index": 83,
+            "prompt_length": 3996,
+            "ground_truth_options": [
+                "Mondelez International, Inc."
+            ],
+            "prediction": "Mondelez International",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 125.4847412109375
+        },
+        {
+            "index": 84,
+            "prompt_length": 3281,
+            "ground_truth_options": [
+                "Monica Lewinsky"
+            ],
+            "prediction": "Monica Lewinsky",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 102.8475341796875
+        },
+        {
+            "index": 85,
+            "prompt_length": 2898,
+            "ground_truth_options": [
+                "April 1, 1949"
+            ],
+            "prediction": "April 1, 1949",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 90.864990234375
+        },
+        {
+            "index": 86,
+            "prompt_length": 3936,
+            "ground_truth_options": [
+                "1866"
+            ],
+            "prediction": "1866",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 123.55615234375
+        },
+        {
+            "index": 87,
+            "prompt_length": 2932,
+            "ground_truth_options": [
+                "Canary Islands, Spain"
+            ],
+            "prediction": "Teide National Park is located in Tenerife (Canary Islands, Spain), and Garajonay National Park is located in the center and north of the island of La Gomera, also in the Canary Islands, Spain.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 93.2362060546875
+        },
+        {
+            "index": 88,
+            "prompt_length": 3416,
+            "ground_truth_options": [
+                "250 million"
+            ],
+            "prediction": "None",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 107.052490234375
+        },
+        {
+            "index": 89,
+            "prompt_length": 3424,
+            "ground_truth_options": [
+                "director"
+            ],
+            "prediction": "film director",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 107.3370361328125
+        },
+        {
+            "index": 90,
+            "prompt_length": 2411,
+            "ground_truth_options": [
+                "The Conversation"
+            ],
+            "prediction": "The Conversation",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 75.309814453125
+        },
+        {
+            "index": 91,
+            "prompt_length": 2296,
+            "ground_truth_options": [
+                "John Waters"
+            ],
+            "prediction": "John Waters",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 71.6739501953125
+        },
+        {
+            "index": 92,
+            "prompt_length": 3208,
+            "ground_truth_options": [
+                "Las Vegas Strip in Paradise"
+            ],
+            "prediction": "Flamingo Hotel in Las Vegas, Nevada",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 100.729248046875
+        },
+        {
+            "index": 93,
+            "prompt_length": 3869,
+            "ground_truth_options": [
+                "no"
+            ],
+            "prediction": "No",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 121.3746337890625
+        },
+        {
+            "index": 94,
+            "prompt_length": 2330,
+            "ground_truth_options": [
+                "March and April"
+            ],
+            "prediction": "November",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 72.71728515625
+        },
+        {
+            "index": 95,
+            "prompt_length": 2552,
+            "ground_truth_options": [
+                "Fairfax County"
+            ],
+            "prediction": "Fairfax County",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 79.7677001953125
+        },
+        {
+            "index": 96,
+            "prompt_length": 3402,
+            "ground_truth_options": [
+                "IT products and services"
+            ],
+            "prediction": "IT products and services",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 106.7047119140625
+        },
+        {
+            "index": 97,
+            "prompt_length": 3189,
+            "ground_truth_options": [
+                "Levni Yilmaz"
+            ],
+            "prediction": "Lev Yilmaz",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 99.970458984375
+        },
+        {
+            "index": 98,
+            "prompt_length": 4090,
+            "ground_truth_options": [
+                "Beijing"
+            ],
+            "prediction": "Beijing",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 128.36181640625
+        },
+        {
+            "index": 99,
+            "prompt_length": 3385,
+            "ground_truth_options": [
+                "no"
+            ],
+            "prediction": "No",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 106.0723876953125
+        },
+        {
+            "index": 100,
+            "prompt_length": 2454,
+            "ground_truth_options": [
+                "Coahuila, Mexico"
+            ],
+            "prediction": "Oklahoma.",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 76.6693115234375
+        },
+        {
+            "index": 101,
+            "prompt_length": 3155,
+            "ground_truth_options": [
+                "Larnelle Harris"
+            ],
+            "prediction": "Larnelle Harris",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 98.8955078125
+        },
+        {
+            "index": 102,
+            "prompt_length": 3749,
+            "ground_truth_options": [
+                "2003"
+            ],
+            "prediction": "1999",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 117.6439208984375
+        },
+        {
+            "index": 103,
+            "prompt_length": 2464,
+            "ground_truth_options": [
+                "North Avenue at Techwood Drive"
+            ],
+            "prediction": "Atlanta.",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 76.9854736328125
+        },
+        {
+            "index": 104,
+            "prompt_length": 3922,
+            "ground_truth_options": [
+                "Leo Varadkar"
+            ],
+            "prediction": "Leo Varadkar",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 123.1451416015625
+        },
+        {
+            "index": 105,
+            "prompt_length": 3581,
+            "ground_truth_options": [
+                "George Raft"
+            ],
+            "prediction": "George Raft",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 112.3323974609375
+        },
+        {
+            "index": 106,
+            "prompt_length": 3067,
+            "ground_truth_options": [
+                "1887"
+            ],
+            "prediction": "George Abbott (1887)",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 96.176513671875
+        },
+        {
+            "index": 107,
+            "prompt_length": 2479,
+            "ground_truth_options": [
+                "business"
+            ],
+            "prediction": "Valuation method and philanthropy.",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 77.6177978515625
+        },
+        {
+            "index": 108,
+            "prompt_length": 3901,
+            "ground_truth_options": [
+                "7 October 1978"
+            ],
+            "prediction": "7 October 1978",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 122.54443359375
+        },
+        {
+            "index": 109,
+            "prompt_length": 3591,
+            "ground_truth_options": [
+                "B-17 Flying Fortress bomber"
+            ],
+            "prediction": "B-17 Flying Fortress",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 112.7117919921875
+        },
+        {
+            "index": 110,
+            "prompt_length": 4055,
+            "ground_truth_options": [
+                "Blake Shelton"
+            ],
+            "prediction": "Blake Shelton",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 127.3184814453125
+        },
+        {
+            "index": 111,
+            "prompt_length": 4072,
+            "ground_truth_options": [
+                "three centuries"
+            ],
+            "prediction": "137",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 127.8243408203125
+        },
+        {
+            "index": 112,
+            "prompt_length": 2314,
+            "ground_truth_options": [
+                "7 January 1936"
+            ],
+            "prediction": "21 January 1926",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 72.3695068359375
+        },
+        {
+            "index": 113,
+            "prompt_length": 3490,
+            "ground_truth_options": [
+                "George Archainbaud"
+            ],
+            "prediction": "Ralph Murphy",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 109.4237060546875
+        },
+        {
+            "index": 114,
+            "prompt_length": 3858,
+            "ground_truth_options": [
+                "picric acid"
+            ],
+            "prediction": "Picric acid",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 121.090087890625
+        },
+        {
+            "index": 115,
+            "prompt_length": 3450,
+            "ground_truth_options": [
+                "230"
+            ],
+            "prediction": "16",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 108.1590576171875
+        },
+        {
+            "index": 116,
+            "prompt_length": 2391,
+            "ground_truth_options": [
+                "Marvel"
+            ],
+            "prediction": "Marvel",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 74.6458740234375
+        },
+        {
+            "index": 117,
+            "prompt_length": 3676,
+            "ground_truth_options": [
+                "United States Senator"
+            ],
+            "prediction": "U.S. Representative for Maryland's 8 congressional district",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 115.5888671875
+        },
+        {
+            "index": 118,
+            "prompt_length": 3607,
+            "ground_truth_options": [
+                "no"
+            ],
+            "prediction": "No",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 113.0911865234375
+        },
+        {
+            "index": 119,
+            "prompt_length": 3729,
+            "ground_truth_options": [
+                "yes"
+            ],
+            "prediction": "Yes",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 116.9483642578125
+        },
+        {
+            "index": 120,
+            "prompt_length": 3882,
+            "ground_truth_options": [
+                "The A41"
+            ],
+            "prediction": "A41",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 121.8172607421875
+        },
+        {
+            "index": 121,
+            "prompt_length": 4070,
+            "ground_truth_options": [
+                "Princess Jessica"
+            ],
+            "prediction": "Princess Jessica",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 127.7611083984375
+        },
+        {
+            "index": 122,
+            "prompt_length": 2707,
+            "ground_truth_options": [
+                "The Spiderwick Chronicles"
+            ],
+            "prediction": "The Spiderwick Chronicles",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 84.7314453125
+        },
+        {
+            "index": 123,
+            "prompt_length": 3804,
+            "ground_truth_options": [
+                "KKR & Co"
+            ],
+            "prediction": "Kohlberg Kravis Roberts.",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 119.50927734375
+        },
+        {
+            "index": 124,
+            "prompt_length": 2728,
+            "ground_truth_options": [
+                "The Bye Bye Man"
+            ],
+            "prediction": "The Bye Bye Man",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 85.3953857421875
+        },
+        {
+            "index": 125,
+            "prompt_length": 3930,
+            "ground_truth_options": [
+                "Richmond"
+            ],
+            "prediction": "Richmond River",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 123.3348388671875
+        },
+        {
+            "index": 126,
+            "prompt_length": 3048,
+            "ground_truth_options": [
+                "Owsley Stanley"
+            ],
+            "prediction": "Owsley Stanley",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 95.5125732421875
+        },
+        {
+            "index": 127,
+            "prompt_length": 3514,
+            "ground_truth_options": [
+                "the late 12th Century"
+            ],
+            "prediction": "Spynie Palace",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 110.2457275390625
+        },
+        {
+            "index": 128,
+            "prompt_length": 3735,
+            "ground_truth_options": [
+                "San Luis Obispo, California"
+            ],
+            "prediction": "San Luis Obispo",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 117.2645263671875
+        },
+        {
+            "index": 129,
+            "prompt_length": 2997,
+            "ground_truth_options": [
+                "Mercedes-Benz Superdome"
+            ],
+            "prediction": "Papa John's Cardinal Stadium",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 93.9317626953125
+        },
+        {
+            "index": 130,
+            "prompt_length": 3856,
+            "ground_truth_options": [
+                "LaLee's Kin: The Legacy of Cotton"
+            ],
+            "prediction": "LaLee's Kin: The Legacy of Cotton",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 121.216552734375
+        },
+        {
+            "index": 131,
+            "prompt_length": 2770,
+            "ground_truth_options": [
+                "Pirate's Cove"
+            ],
+            "prediction": "2003",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 86.691650390625
+        },
+        {
+            "index": 132,
+            "prompt_length": 3166,
+            "ground_truth_options": [
+                "Crystal Dynamics"
+            ],
+            "prediction": "Crystal Dynamics",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 99.1800537109375
+        },
+        {
+            "index": 133,
+            "prompt_length": 3247,
+            "ground_truth_options": [
+                "\"The Marshall Mathers LP 2\""
+            ],
+            "prediction": "The Marshall Mathers LP 2",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 101.8990478515625
+        },
+        {
+            "index": 134,
+            "prompt_length": 3972,
+            "ground_truth_options": [
+                "Suicide Squad"
+            ],
+            "prediction": "\"Training Day\".",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 124.7259521484375
+        },
+        {
+            "index": 135,
+            "prompt_length": 3792,
+            "ground_truth_options": [
+                "Jillian Belk"
+            ],
+            "prediction": "Jillian Bell",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 119.00341796875
+        },
+        {
+            "index": 136,
+            "prompt_length": 3074,
+            "ground_truth_options": [
+                "Texas Tech University"
+            ],
+            "prediction": "Texas Tech University",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 96.302978515625
+        },
+        {
+            "index": 137,
+            "prompt_length": 3702,
+            "ground_truth_options": [
+                "Lord Combermere"
+            ],
+            "prediction": "Field Marshal Stapleton Cotton, 1st Viscount Combermere",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 116.5057373046875
+        },
+        {
+            "index": 138,
+            "prompt_length": 3278,
+            "ground_truth_options": [
+                "seasonal television specials, particularly its work in stop motion animation"
+            ],
+            "prediction": "stop motion animation.",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 102.7843017578125
+        },
+        {
+            "index": 139,
+            "prompt_length": 3530,
+            "ground_truth_options": [
+                "2014"
+            ],
+            "prediction": "2007",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 110.719970703125
+        },
+        {
+            "index": 140,
+            "prompt_length": 3866,
+            "ground_truth_options": [
+                "Oxford"
+            ],
+            "prediction": "Oxford",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 121.27978515625
+        },
+        {
+            "index": 141,
+            "prompt_length": 2658,
+            "ground_truth_options": [
+                "Roberta Vinci"
+            ],
+            "prediction": "Roberta Vinci",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 83.150634765625
+        },
+        {
+            "index": 142,
+            "prompt_length": 3118,
+            "ground_truth_options": [
+                "\"Teach the Controversy\" campaign"
+            ],
+            "prediction": "Teach the Controversy",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 97.75732421875
+        },
+        {
+            "index": 143,
+            "prompt_length": 2377,
+            "ground_truth_options": [
+                "Lostprophets disbanded in 2013 after Watkins was charged with sexual offences in late 2012."
+            ],
+            "prediction": "Ian Watkins",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 74.23486328125
+        },
+        {
+            "index": 144,
+            "prompt_length": 3285,
+            "ground_truth_options": [
+                "Nebo Zovyot"
+            ],
+            "prediction": "Nebo Zovyot",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 103.0372314453125
+        },
+        {
+            "index": 145,
+            "prompt_length": 3019,
+            "ground_truth_options": [
+                "Erika Jayne"
+            ],
+            "prediction": "Erika Jayne",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 94.595703125
+        },
+        {
+            "index": 146,
+            "prompt_length": 3215,
+            "ground_truth_options": [
+                "2009"
+            ],
+            "prediction": "2009",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 100.7608642578125
+        },
+        {
+            "index": 147,
+            "prompt_length": 3836,
+            "ground_truth_options": [
+                "Kingdom of the Isles"
+            ],
+            "prediction": "Kingdom of the Isles",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 120.4261474609375
+        },
+        {
+            "index": 148,
+            "prompt_length": 2712,
+            "ground_truth_options": [
+                "The Beatles"
+            ],
+            "prediction": "The Beatles",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 84.8262939453125
+        },
+        {
+            "index": 149,
+            "prompt_length": 4061,
+            "ground_truth_options": [
+                "\"We'll Burn That Bridge\""
+            ],
+            "prediction": "We'll Burn That Bridge",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 127.5714111328125
+        },
+        {
+            "index": 150,
+            "prompt_length": 3681,
+            "ground_truth_options": [
+                "director"
+            ],
+            "prediction": "Filmmaker",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 115.4940185546875
+        },
+        {
+            "index": 151,
+            "prompt_length": 3578,
+            "ground_truth_options": [
+                "1901"
+            ],
+            "prediction": "1901",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 112.237548828125
+        },
+        {
+            "index": 152,
+            "prompt_length": 2641,
+            "ground_truth_options": [
+                "Argand lamp"
+            ],
+            "prediction": "Argand lamp",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 82.6131591796875
+        },
+        {
+            "index": 153,
+            "prompt_length": 2807,
+            "ground_truth_options": [
+                "seven"
+            ],
+            "prediction": "7",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 87.829833984375
+        },
+        {
+            "index": 154,
+            "prompt_length": 3620,
+            "ground_truth_options": [
+                "yes"
+            ],
+            "prediction": "Yes",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 113.502197265625
+        },
+        {
+            "index": 155,
+            "prompt_length": 2962,
+            "ground_truth_options": [
+                "Brazil"
+            ],
+            "prediction": "2014",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 92.761962890625
+        },
+        {
+            "index": 156,
+            "prompt_length": 3037,
+            "ground_truth_options": [
+                "The Seven Days Battles"
+            ],
+            "prediction": "The Seven Days Battles",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 95.164794921875
+        },
+        {
+            "index": 157,
+            "prompt_length": 3318,
+            "ground_truth_options": [
+                "Lush Ltd."
+            ],
+            "prediction": "Lush",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 103.9857177734375
+        },
+        {
+            "index": 158,
+            "prompt_length": 3468,
+            "ground_truth_options": [
+                "Manchester United"
+            ],
+            "prediction": "Manchester United F.C.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 108.822998046875
+        },
+        {
+            "index": 159,
+            "prompt_length": 2898,
+            "ground_truth_options": [
+                "1989"
+            ],
+            "prediction": "1989",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 90.738525390625
+        },
+        {
+            "index": 160,
+            "prompt_length": 3492,
+            "ground_truth_options": [
+                "Kathryn Jean Martin"
+            ],
+            "prediction": "Dorothy Tangney",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 109.5185546875
+        },
+        {
+            "index": 161,
+            "prompt_length": 3066,
+            "ground_truth_options": [
+                "Frank Lowy"
+            ],
+            "prediction": "Frank Lowy",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 96.050048828125
+        },
+        {
+            "index": 162,
+            "prompt_length": 4072,
+            "ground_truth_options": [
+                "Las Vegas"
+            ],
+            "prediction": "Las Vegas",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 127.8243408203125
+        },
+        {
+            "index": 163,
+            "prompt_length": 3774,
+            "ground_truth_options": [
+                "Kelly Lee Osbourne"
+            ],
+            "prediction": "Kelly Osbourne",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 118.434326171875
+        },
+        {
+            "index": 164,
+            "prompt_length": 3040,
+            "ground_truth_options": [
+                "Sean Yseult."
+            ],
+            "prediction": "Chris Lee",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 95.1964111328125
+        },
+        {
+            "index": 165,
+            "prompt_length": 3124,
+            "ground_truth_options": [
+                "Prescription Drug User Fee Act"
+            ],
+            "prediction": "$700 million",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 97.8837890625
+        },
+        {
+            "index": 166,
+            "prompt_length": 3247,
+            "ground_truth_options": [
+                "Dinosaur"
+            ],
+            "prediction": "1999",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 101.7725830078125
+        },
+        {
+            "index": 167,
+            "prompt_length": 2517,
+            "ground_truth_options": [
+                "Wichita"
+            ],
+            "prediction": "Wichita",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 78.6295166015625
+        },
+        {
+            "index": 168,
+            "prompt_length": 2539,
+            "ground_truth_options": [
+                "United States presidential election of 2016"
+            ],
+            "prediction": "The United States presidential election of 2016.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 79.609619140625
+        },
+        {
+            "index": 169,
+            "prompt_length": 4013,
+            "ground_truth_options": [
+                "Roman"
+            ],
+            "prediction": "Togodumnus",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 126.0538330078125
+        },
+        {
+            "index": 170,
+            "prompt_length": 3545,
+            "ground_truth_options": [
+                "C. W. Grafton"
+            ],
+            "prediction": "Ross Macdonald",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 111.225830078125
+        },
+        {
+            "index": 171,
+            "prompt_length": 3136,
+            "ground_truth_options": [
+                "Brooklyn, New York"
+            ],
+            "prediction": "Brooklyn, New York",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 98.2947998046875
+        },
+        {
+            "index": 172,
+            "prompt_length": 3460,
+            "ground_truth_options": [
+                "48,982"
+            ],
+            "prediction": "48,982",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 108.5384521484375
+        },
+        {
+            "index": 173,
+            "prompt_length": 3843,
+            "ground_truth_options": [
+                "Pasek & Paul"
+            ],
+            "prediction": "Pasek and Paul",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 120.6790771484375
+        },
+        {
+            "index": 174,
+            "prompt_length": 2531,
+            "ground_truth_options": [
+                "City of Newcastle"
+            ],
+            "prediction": "City of Cessnock",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 79.1986083984375
+        },
+        {
+            "index": 175,
+            "prompt_length": 2412,
+            "ground_truth_options": [
+                "yes"
+            ],
+            "prediction": "Yes",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 75.309814453125
+        },
+        {
+            "index": 176,
+            "prompt_length": 4077,
+            "ground_truth_options": [
+                "drawings"
+            ],
+            "prediction": "drawings",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 127.9508056640625
+        },
+        {
+            "index": 177,
+            "prompt_length": 3092,
+            "ground_truth_options": [
+                "between the 8th and 16th centuries"
+            ],
+            "prediction": "16th century.",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 96.935302734375
+        },
+        {
+            "index": 178,
+            "prompt_length": 3327,
+            "ground_truth_options": [
+                "Alistair Grant"
+            ],
+            "prediction": "Sir Matthew Alistair Grant",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 104.396728515625
+        },
+        {
+            "index": 179,
+            "prompt_length": 3835,
+            "ground_truth_options": [
+                "Scotland"
+            ],
+            "prediction": "Scotland.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 120.331298828125
+        },
+        {
+            "index": 180,
+            "prompt_length": 3607,
+            "ground_truth_options": [
+                "Comedy Film Nerds"
+            ],
+            "prediction": "The Drop-In",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 113.1544189453125
+        },
+        {
+            "index": 181,
+            "prompt_length": 3031,
+            "ground_truth_options": [
+                "Summerlin"
+            ],
+            "prediction": "Bishop Gorman High School",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 95.0067138671875
+        },
+        {
+            "index": 182,
+            "prompt_length": 3816,
+            "ground_truth_options": [
+                "George Harrison"
+            ],
+            "prediction": "George Harrison",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 119.7305908203125
+        },
+        {
+            "index": 183,
+            "prompt_length": 2998,
+            "ground_truth_options": [
+                "Canadian professional ice hockey centre"
+            ],
+            "prediction": "Centre",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 93.8369140625
+        },
+        {
+            "index": 184,
+            "prompt_length": 3105,
+            "ground_truth_options": [
+                "1952"
+            ],
+            "prediction": "1952",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 97.2830810546875
+        },
+        {
+            "index": 185,
+            "prompt_length": 2674,
+            "ground_truth_options": [
+                "third"
+            ],
+            "prediction": "Third season.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 83.656494140625
+        },
+        {
+            "index": 186,
+            "prompt_length": 3859,
+            "ground_truth_options": [
+                "Mark Neveldine and Brian Taylor"
+            ],
+            "prediction": "Mark Neveldine and Brian Taylor",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 121.2481689453125
+        },
+        {
+            "index": 187,
+            "prompt_length": 2540,
+            "ground_truth_options": [
+                "Hidden America with Jonah Ray"
+            ],
+            "prediction": "Hidden America with Jonah Ray",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 79.483154296875
+        },
+        {
+            "index": 188,
+            "prompt_length": 4064,
+            "ground_truth_options": [
+                "no"
+            ],
+            "prediction": "Yes",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 127.539794921875
+        },
+        {
+            "index": 189,
+            "prompt_length": 2853,
+            "ground_truth_options": [
+                "1943"
+            ],
+            "prediction": "1954",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 89.3157958984375
+        },
+        {
+            "index": 190,
+            "prompt_length": 2873,
+            "ground_truth_options": [
+                "Oregon Ducks football"
+            ],
+            "prediction": "Oregon State",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 89.91650390625
+        },
+        {
+            "index": 191,
+            "prompt_length": 4001,
+            "ground_truth_options": [
+                "National Broadcasting Company"
+            ],
+            "prediction": "National Broadcasting Company (NBC).",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 125.7060546875
+        },
+        {
+            "index": 192,
+            "prompt_length": 3585,
+            "ground_truth_options": [
+                "North African Arab"
+            ],
+            "prediction": "North African",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 112.42724609375
+        },
+        {
+            "index": 193,
+            "prompt_length": 3810,
+            "ground_truth_options": [
+                "Murray Hill"
+            ],
+            "prediction": "Murray Hill, New Jersey.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 119.6673583984375
+        },
+        {
+            "index": 194,
+            "prompt_length": 3835,
+            "ground_truth_options": [
+                "severe acute respiratory syndrome"
+            ],
+            "prediction": "Severe acute respiratory syndrome (SARS).",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 120.5526123046875
+        },
+        {
+            "index": 195,
+            "prompt_length": 2688,
+            "ground_truth_options": [
+                "Wendell Berry"
+            ],
+            "prediction": "Wendell Berry",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 84.09912109375
+        },
+        {
+            "index": 196,
+            "prompt_length": 2747,
+            "ground_truth_options": [
+                "Tinu Suresh Desai"
+            ],
+            "prediction": "Bhushan Patel",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 85.99609375
+        },
+        {
+            "index": 197,
+            "prompt_length": 3892,
+            "ground_truth_options": [
+                "Golden Valley, Minnesota,"
+            ],
+            "prediction": "Illinois",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 122.101806640625
+        },
+        {
+            "index": 198,
+            "prompt_length": 3047,
+            "ground_truth_options": [
+                "$10.5 million"
+            ],
+            "prediction": "$10.5 million",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 95.5125732421875
+        },
+        {
+            "index": 199,
+            "prompt_length": 2724,
+            "ground_truth_options": [
+                "1999 Odisha cyclone"
+            ],
+            "prediction": "1999 Odisha cyclone",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 85.36376953125
+        },
+        {
+            "index": 200,
+            "prompt_length": 3925,
+            "ground_truth_options": [
+                "Crackle"
+            ],
+            "prediction": "Pop",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 123.1451416015625
+        },
+        {
+            "index": 201,
+            "prompt_length": 2598,
+            "ground_truth_options": [
+                "Salford City Football Club"
+            ],
+            "prediction": "Salford City",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 81.2852783203125
+        },
+        {
+            "index": 202,
+            "prompt_length": 4093,
+            "ground_truth_options": [
+                "architect Michael Graves"
+            ],
+            "prediction": "Michael Graves",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 128.48828125
+        },
+        {
+            "index": 203,
+            "prompt_length": 3038,
+            "ground_truth_options": [
+                "multiple awards"
+            ],
+            "prediction": "None",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 95.1015625
+        },
+        {
+            "index": 204,
+            "prompt_length": 2706,
+            "ground_truth_options": [
+                "Kevin Spacey"
+            ],
+            "prediction": "Kevin Spacey",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 84.668212890625
+        },
+        {
+            "index": 205,
+            "prompt_length": 3604,
+            "ground_truth_options": [
+                "Ryan Seacrest"
+            ],
+            "prediction": "None",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 112.996337890625
+        },
+        {
+            "index": 206,
+            "prompt_length": 3719,
+            "ground_truth_options": [
+                "yes"
+            ],
+            "prediction": "No",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 116.6322021484375
+        },
+        {
+            "index": 207,
+            "prompt_length": 3834,
+            "ground_truth_options": [
+                "Colonel Charles Hastings Judd"
+            ],
+            "prediction": "Charles Hastings Judd",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 120.39453125
+        },
+        {
+            "index": 208,
+            "prompt_length": 3315,
+            "ground_truth_options": [
+                "Pavel Sergeyevich Alexandrov"
+            ],
+            "prediction": "Pavel Alexandrov",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 103.9224853515625
+        },
+        {
+            "index": 209,
+            "prompt_length": 3119,
+            "ground_truth_options": [
+                "Gal Gadot"
+            ],
+            "prediction": "Gal Gadot",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 97.7257080078125
+        },
+        {
+            "index": 210,
+            "prompt_length": 3163,
+            "ground_truth_options": [
+                "Rear Adm. J. Edward Snyder"
+            ],
+            "prediction": "Rear Adm. J. Edward Snyder",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 99.27490234375
+        },
+        {
+            "index": 211,
+            "prompt_length": 3046,
+            "ground_truth_options": [
+                "Jackson Storm"
+            ],
+            "prediction": "Jackson Storm",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 95.3861083984375
+        },
+        {
+            "index": 212,
+            "prompt_length": 4063,
+            "ground_truth_options": [
+                "712 5th Avenue"
+            ],
+            "prediction": "712 Fifth Avenue",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 127.60302734375
+        },
+        {
+            "index": 213,
+            "prompt_length": 2700,
+            "ground_truth_options": [
+                "right-hand"
+            ],
+            "prediction": "The document does not provide information about the batsman's handedness.",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 84.8262939453125
+        },
+        {
+            "index": 214,
+            "prompt_length": 2769,
+            "ground_truth_options": [
+                "Arthur Ignatius Conan Doyle"
+            ],
+            "prediction": "22 May 1859",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 86.7548828125
+        },
+        {
+            "index": 215,
+            "prompt_length": 4087,
+            "ground_truth_options": [
+                "Birmingham, Alabama"
+            ],
+            "prediction": "Southeastern Conference, Birmingham, Alabama.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 128.48828125
+        },
+        {
+            "index": 216,
+            "prompt_length": 3666,
+            "ground_truth_options": [
+                "44"
+            ],
+            "prediction": "44",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 114.9881591796875
+        },
+        {
+            "index": 217,
+            "prompt_length": 2417,
+            "ground_truth_options": [
+                "the Parthian Empire"
+            ],
+            "prediction": "The Sasanian Empire",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 75.5943603515625
+        },
+        {
+            "index": 218,
+            "prompt_length": 3937,
+            "ground_truth_options": [
+                "Erinsborough"
+            ],
+            "prediction": "Erinsborough",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 123.5877685546875
+        },
+        {
+            "index": 219,
+            "prompt_length": 2865,
+            "ground_truth_options": [
+                "Samoa"
+            ],
+            "prediction": "Samoa",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 89.6319580078125
+        },
+        {
+            "index": 220,
+            "prompt_length": 3449,
+            "ground_truth_options": [
+                "Kimberly Couger \"Kimmy\" Schmidt"
+            ],
+            "prediction": "Kimmy Schmidt",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 108.1590576171875
+        },
+        {
+            "index": 221,
+            "prompt_length": 3956,
+            "ground_truth_options": [
+                "\"The Comic Strip Presents...\""
+            ],
+            "prediction": "The Comic Strip Presents...",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 124.251708984375
+        },
+        {
+            "index": 222,
+            "prompt_length": 3813,
+            "ground_truth_options": [
+                "no"
+            ],
+            "prediction": "Yes",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 119.6041259765625
+        },
+        {
+            "index": 223,
+            "prompt_length": 3764,
+            "ground_truth_options": [
+                "nineteenth"
+            ],
+            "prediction": "19th",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 118.1181640625
+        },
+        {
+            "index": 224,
+            "prompt_length": 3617,
+            "ground_truth_options": [
+                "Awake"
+            ],
+            "prediction": "Awake",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 113.4073486328125
+        },
+        {
+            "index": 225,
+            "prompt_length": 3261,
+            "ground_truth_options": [
+                "French Canadians"
+            ],
+            "prediction": "French Canadians",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 102.18359375
+        },
+        {
+            "index": 226,
+            "prompt_length": 3708,
+            "ground_truth_options": [
+                "American"
+            ],
+            "prediction": "American",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 116.284423828125
+        },
+        {
+            "index": 227,
+            "prompt_length": 3041,
+            "ground_truth_options": [
+                "8 km"
+            ],
+            "prediction": "The \u00d8resund Bridge is approximately 8 km long.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 95.544189453125
+        },
+        {
+            "index": 228,
+            "prompt_length": 3454,
+            "ground_truth_options": [
+                "Rawhide"
+            ],
+            "prediction": "Rawhide",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 108.2855224609375
+        },
+        {
+            "index": 229,
+            "prompt_length": 3339,
+            "ground_truth_options": [
+                "Marsilea"
+            ],
+            "prediction": "Marsilea",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 104.6812744140625
+        },
+        {
+            "index": 230,
+            "prompt_length": 3914,
+            "ground_truth_options": [
+                "Mark Masons' Hall"
+            ],
+            "prediction": "St James's Palace",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 122.8922119140625
+        },
+        {
+            "index": 231,
+            "prompt_length": 3593,
+            "ground_truth_options": [
+                "Starlite"
+            ],
+            "prediction": "Starlite",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 112.68017578125
+        },
+        {
+            "index": 232,
+            "prompt_length": 3909,
+            "ground_truth_options": [
+                "Hong Kong"
+            ],
+            "prediction": "Singapore",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 122.6392822265625
+        },
+        {
+            "index": 233,
+            "prompt_length": 2843,
+            "ground_truth_options": [
+                "Craig v. Boren"
+            ],
+            "prediction": "United States v. Paramount Pictures, Inc.",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 89.1893310546875
+        },
+        {
+            "index": 234,
+            "prompt_length": 4081,
+            "ground_truth_options": [
+                "\"Queen City\""
+            ],
+            "prediction": "The Queen City.",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 128.172119140625
+        },
+        {
+            "index": 235,
+            "prompt_length": 3893,
+            "ground_truth_options": [
+                "Arrowhead Stadium"
+            ],
+            "prediction": "Arrowhead Stadium.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 122.228271484375
+        },
+        {
+            "index": 236,
+            "prompt_length": 2656,
+            "ground_truth_options": [
+                "acidic"
+            ],
+            "prediction": "cranberries",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 83.0557861328125
+        },
+        {
+            "index": 237,
+            "prompt_length": 2837,
+            "ground_truth_options": [
+                "Compliance"
+            ],
+            "prediction": "Compliance.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 88.7783203125
+        },
+        {
+            "index": 238,
+            "prompt_length": 4032,
+            "ground_truth_options": [
+                "Logan International Airport"
+            ],
+            "prediction": "Logan International Airport",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 126.59130859375
+        },
+        {
+            "index": 239,
+            "prompt_length": 2831,
+            "ground_truth_options": [
+                "Ehretia"
+            ],
+            "prediction": "Ehretia",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 88.6202392578125
+        },
+        {
+            "index": 240,
+            "prompt_length": 3437,
+            "ground_truth_options": [
+                "a pinball machine"
+            ],
+            "prediction": "Frank Thomas' Big Hurt",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 107.8428955078125
+        },
+        {
+            "index": 241,
+            "prompt_length": 2825,
+            "ground_truth_options": [
+                "Donna Paige Helmintoller"
+            ],
+            "prediction": "Paige O'Hara",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 88.462158203125
+        },
+        {
+            "index": 242,
+            "prompt_length": 4013,
+            "ground_truth_options": [
+                "Reginald Martinez \"Reggie\" Jackson"
+            ],
+            "prediction": "Reggie Jackson",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 125.958984375
+        },
+        {
+            "index": 243,
+            "prompt_length": 2761,
+            "ground_truth_options": [
+                "Thomas Mawson"
+            ],
+            "prediction": "Stanley Park.",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 86.4071044921875
+        },
+        {
+            "index": 244,
+            "prompt_length": 3727,
+            "ground_truth_options": [
+                "strings"
+            ],
+            "prediction": "Sarod",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 116.916748046875
+        },
+        {
+            "index": 245,
+            "prompt_length": 2660,
+            "ground_truth_options": [
+                "Brad Silberling"
+            ],
+            "prediction": "Lemony Snicket's A Series of Unfortunate Events",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 83.466796875
+        },
+        {
+            "index": 246,
+            "prompt_length": 3283,
+            "ground_truth_options": [
+                "25 laps"
+            ],
+            "prediction": "25",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 102.879150390625
+        },
+        {
+            "index": 247,
+            "prompt_length": 3003,
+            "ground_truth_options": [
+                "yes"
+            ],
+            "prediction": "Yes",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 93.9949951171875
+        },
+        {
+            "index": 248,
+            "prompt_length": 2620,
+            "ground_truth_options": [
+                "Thomas Loren Friedman"
+            ],
+            "prediction": "Thomas Friedman",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 81.9176025390625
+        },
+        {
+            "index": 249,
+            "prompt_length": 3389,
+            "ground_truth_options": [
+                "Taylor Swift"
+            ],
+            "prediction": "Taylor Swift",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 106.23046875
+        },
+        {
+            "index": 250,
+            "prompt_length": 2419,
+            "ground_truth_options": [
+                "Istanbul, Turkey"
+            ],
+            "prediction": "Istanbul.",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 75.562744140625
+        },
+        {
+            "index": 251,
+            "prompt_length": 3281,
+            "ground_truth_options": [
+                "super-regional shopping mall"
+            ],
+            "prediction": "A super-regional shopping mall owned by Simon Property Group, formerly by its initial owners Mills Corporation and Gaylord Entertainment.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 103.511474609375
+        },
+        {
+            "index": 252,
+            "prompt_length": 4043,
+            "ground_truth_options": [
+                "Ordos City"
+            ],
+            "prediction": "Ordos City China Science Flying Universe Science and Technology Co., Ltd.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 127.286865234375
+        },
+        {
+            "index": 253,
+            "prompt_length": 3990,
+            "ground_truth_options": [
+                "Scott Sidney"
+            ],
+            "prediction": "Alain Resnais",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 125.32666015625
+        },
+        {
+            "index": 254,
+            "prompt_length": 3924,
+            "ground_truth_options": [
+                "over 600 stores"
+            ],
+            "prediction": "Spencer Gifts",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 123.1451416015625
+        },
+        {
+            "index": 255,
+            "prompt_length": 4053,
+            "ground_truth_options": [
+                "Berea College"
+            ],
+            "prediction": "Berea College",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 127.2552490234375
+        },
+        {
+            "index": 256,
+            "prompt_length": 3530,
+            "ground_truth_options": [
+                "1945"
+            ],
+            "prediction": "1946",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 110.719970703125
+        },
+        {
+            "index": 257,
+            "prompt_length": 2625,
+            "ground_truth_options": [
+                "Mountbatten family"
+            ],
+            "prediction": "Capetian",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 82.1072998046875
+        },
+        {
+            "index": 258,
+            "prompt_length": 4024,
+            "ground_truth_options": [
+                "James Burke"
+            ],
+            "prediction": "Mick Jackson",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 126.3067626953125
+        },
+        {
+            "index": 259,
+            "prompt_length": 2588,
+            "ground_truth_options": [
+                "Gulangyu"
+            ],
+            "prediction": "Gulangyu",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 80.9375
+        },
+        {
+            "index": 260,
+            "prompt_length": 2660,
+            "ground_truth_options": [
+                "Slaughterhouse-Five"
+            ],
+            "prediction": "Kurt Vonnegut",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 83.277099609375
+        },
+        {
+            "index": 261,
+            "prompt_length": 3987,
+            "ground_truth_options": [
+                "the east of Ireland"
+            ],
+            "prediction": "Leinster",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 125.1685791015625
+        },
+        {
+            "index": 262,
+            "prompt_length": 3565,
+            "ground_truth_options": [
+                "Distillery"
+            ],
+            "prediction": "None mentioned",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 111.794921875
+        },
+        {
+            "index": 263,
+            "prompt_length": 3161,
+            "ground_truth_options": [
+                "Tybalt"
+            ],
+            "prediction": "Romeo",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 98.9903564453125
+        },
+        {
+            "index": 264,
+            "prompt_length": 3962,
+            "ground_truth_options": [
+                "SKUM"
+            ],
+            "prediction": "SKUM",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 124.3465576171875
+        },
+        {
+            "index": 265,
+            "prompt_length": 3133,
+            "ground_truth_options": [
+                "Anabolic steroids"
+            ],
+            "prediction": "Anabolic steroids",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 98.1683349609375
+        },
+        {
+            "index": 266,
+            "prompt_length": 3709,
+            "ground_truth_options": [
+                "Don S. Davis"
+            ],
+            "prediction": "Don S. Davis",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 116.410888671875
+        },
+        {
+            "index": 267,
+            "prompt_length": 2985,
+            "ground_truth_options": [
+                "Charles Kelley"
+            ],
+            "prediction": "Brooks and Dunn",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 93.4891357421875
+        },
+        {
+            "index": 268,
+            "prompt_length": 3892,
+            "ground_truth_options": [
+                "3,384,569"
+            ],
+            "prediction": "3,384,569",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 122.2598876953125
+        },
+        {
+            "index": 269,
+            "prompt_length": 3264,
+            "ground_truth_options": [
+                "Anna Clyne"
+            ],
+            "prediction": "Anna Clyne",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 102.31005859375
+        },
+        {
+            "index": 270,
+            "prompt_length": 3143,
+            "ground_truth_options": [
+                "USS Essex"
+            ],
+            "prediction": "USS Essex (CV-9)",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 98.6109619140625
+        },
+        {
+            "index": 271,
+            "prompt_length": 2733,
+            "ground_truth_options": [
+                "yes"
+            ],
+            "prediction": "Yes",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 85.4586181640625
+        },
+        {
+            "index": 272,
+            "prompt_length": 3891,
+            "ground_truth_options": [
+                "Catwoman"
+            ],
+            "prediction": "Catwoman",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 122.101806640625
+        },
+        {
+            "index": 273,
+            "prompt_length": 2797,
+            "ground_truth_options": [
+                "7 miles"
+            ],
+            "prediction": "At the Leavesden Aerodrome in Hertfordshire",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 87.829833984375
+        },
+        {
+            "index": 274,
+            "prompt_length": 3025,
+            "ground_truth_options": [
+                "Laura Ann Osnes"
+            ],
+            "prediction": "Laura Osnes",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 94.7537841796875
+        },
+        {
+            "index": 275,
+            "prompt_length": 3889,
+            "ground_truth_options": [
+                "20"
+            ],
+            "prediction": "more than 20",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 122.101806640625
+        },
+        {
+            "index": 276,
+            "prompt_length": 3871,
+            "ground_truth_options": [
+                "Eucryphia"
+            ],
+            "prediction": "Lepidozamia has 2 species, Eucryphia has 7 species.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 122.0069580078125
+        },
+        {
+            "index": 277,
+            "prompt_length": 3552,
+            "ground_truth_options": [
+                "Venice"
+            ],
+            "prediction": "Venice",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 111.352294921875
+        },
+        {
+            "index": 278,
+            "prompt_length": 3912,
+            "ground_truth_options": [
+                "Waimea Bay"
+            ],
+            "prediction": "Waimea",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 122.79736328125
+        },
+        {
+            "index": 279,
+            "prompt_length": 3107,
+            "ground_truth_options": [
+                "evangelical Christian periodical"
+            ],
+            "prediction": "Christianity Today",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 97.314697265625
+        },
+        {
+            "index": 280,
+            "prompt_length": 3061,
+            "ground_truth_options": [
+                "James Franco"
+            ],
+            "prediction": "James Franco",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 95.8603515625
+        },
+        {
+            "index": 281,
+            "prompt_length": 3512,
+            "ground_truth_options": [
+                "DI Humphrey Goodman"
+            ],
+            "prediction": "Detective Inspector Humphrey Goodman",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 110.214111328125
+        },
+        {
+            "index": 282,
+            "prompt_length": 2711,
+            "ground_truth_options": [
+                "February"
+            ],
+            "prediction": "October",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 84.7630615234375
+        },
+        {
+            "index": 283,
+            "prompt_length": 2978,
+            "ground_truth_options": [
+                "Sacred Planet"
+            ],
+            "prediction": "Sacred Planet",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 93.2362060546875
+        },
+        {
+            "index": 284,
+            "prompt_length": 3927,
+            "ground_truth_options": [
+                "Hanna"
+            ],
+            "prediction": "Nickelback",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 123.239990234375
+        },
+        {
+            "index": 285,
+            "prompt_length": 3487,
+            "ground_truth_options": [
+                "Ferdi Taygan"
+            ],
+            "prediction": "Ferdi Taygan",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 109.39208984375
+        },
+        {
+            "index": 286,
+            "prompt_length": 3787,
+            "ground_truth_options": [
+                "paracyclist"
+            ],
+            "prediction": "Piano",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 118.7821044921875
+        },
+        {
+            "index": 287,
+            "prompt_length": 3799,
+            "ground_truth_options": [
+                "The Dragon School in Oxford"
+            ],
+            "prediction": "Peterhouse, Cambridge",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 119.25634765625
+        },
+        {
+            "index": 288,
+            "prompt_length": 2697,
+            "ground_truth_options": [
+                "Suicide Kings"
+            ],
+            "prediction": "Suicide Kings",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 84.35205078125
+        },
+        {
+            "index": 289,
+            "prompt_length": 4005,
+            "ground_truth_options": [
+                "Hey Pa! There's a Goat on the Roof"
+            ],
+            "prediction": "Poleconomy",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 125.7060546875
+        },
+        {
+            "index": 290,
+            "prompt_length": 4000,
+            "ground_truth_options": [
+                "a record of 13\u20133"
+            ],
+            "prediction": "13\u20133",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 125.6112060546875
+        },
+        {
+            "index": 291,
+            "prompt_length": 3570,
+            "ground_truth_options": [
+                "8,211 at the 2010 census"
+            ],
+            "prediction": "8,211",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 112.0162353515625
+        },
+        {
+            "index": 292,
+            "prompt_length": 3795,
+            "ground_truth_options": [
+                "The Crowned Prince of the Philadelphia Mob"
+            ],
+            "prediction": "Salvatore \"Salvie\" Testa",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 119.25634765625
+        },
+        {
+            "index": 293,
+            "prompt_length": 3828,
+            "ground_truth_options": [
+                "supervisor of the royal works"
+            ],
+            "prediction": "architect",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 120.078369140625
+        },
+        {
+            "index": 294,
+            "prompt_length": 2776,
+            "ground_truth_options": [
+                "Janet Damita Jo Jackson"
+            ],
+            "prediction": "Janet Jackson",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 86.8497314453125
+        },
+        {
+            "index": 295,
+            "prompt_length": 3974,
+            "ground_truth_options": [
+                "Continental Army"
+            ],
+            "prediction": "Continental Army",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 124.7259521484375
+        },
+        {
+            "index": 296,
+            "prompt_length": 3782,
+            "ground_truth_options": [
+                "Macaronesia"
+            ],
+            "prediction": "Canary Islands",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 118.6556396484375
+        },
+        {
+            "index": 297,
+            "prompt_length": 3254,
+            "ground_truth_options": [
+                "Treaty of Gandamak"
+            ],
+            "prediction": "The Treaty of Gandamak",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 102.05712890625
+        },
+        {
+            "index": 298,
+            "prompt_length": 3414,
+            "ground_truth_options": [
+                "Oregon"
+            ],
+            "prediction": "Oregon",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 106.9892578125
+        },
+        {
+            "index": 299,
+            "prompt_length": 3249,
+            "ground_truth_options": [
+                "early 1970s"
+            ],
+            "prediction": "The early 1970s",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 101.9306640625
+        },
+        {
+            "index": 300,
+            "prompt_length": 3764,
+            "ground_truth_options": [
+                "Bury St Edmunds,"
+            ],
+            "prediction": "England.",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 118.0865478515625
+        },
+        {
+            "index": 301,
+            "prompt_length": 2663,
+            "ground_truth_options": [
+                "early 20s"
+            ],
+            "prediction": "Early 20s",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 83.34033203125
+        },
+        {
+            "index": 302,
+            "prompt_length": 2380,
+            "ground_truth_options": [
+                "23 November 1946"
+            ],
+            "prediction": "Diana Quick (born 23 November 1946)",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 74.6142578125
+        },
+        {
+            "index": 303,
+            "prompt_length": 4049,
+            "ground_truth_options": [
+                "The Soloist"
+            ],
+            "prediction": "Can't Buy Me Love",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 127.1920166015625
+        },
+        {
+            "index": 304,
+            "prompt_length": 3891,
+            "ground_truth_options": [
+                "no"
+            ],
+            "prediction": "No",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 122.0701904296875
+        },
+        {
+            "index": 305,
+            "prompt_length": 3160,
+            "ground_truth_options": [
+                "1901"
+            ],
+            "prediction": "1901",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 99.02197265625
+        },
+        {
+            "index": 306,
+            "prompt_length": 3503,
+            "ground_truth_options": [
+                "Bolton"
+            ],
+            "prediction": "Rivington",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 109.8663330078125
+        },
+        {
+            "index": 307,
+            "prompt_length": 3649,
+            "ground_truth_options": [
+                "George Cayley"
+            ],
+            "prediction": "Sir George Cayley",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 114.513916015625
+        },
+        {
+            "index": 308,
+            "prompt_length": 3943,
+            "ground_truth_options": [
+                "The Leonberger is a giant dog breed."
+            ],
+            "prediction": "The Leonberger.",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 123.80908203125
+        },
+        {
+            "index": 309,
+            "prompt_length": 4060,
+            "ground_truth_options": [
+                "yes"
+            ],
+            "prediction": "Yes",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 127.413330078125
+        },
+        {
+            "index": 310,
+            "prompt_length": 3778,
+            "ground_truth_options": [
+                "2013"
+            ],
+            "prediction": "2004",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 118.560791015625
+        },
+        {
+            "index": 311,
+            "prompt_length": 3117,
+            "ground_truth_options": [
+                "Rolling Stone"
+            ],
+            "prediction": "Shonen Jump",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 97.6624755859375
+        },
+        {
+            "index": 312,
+            "prompt_length": 3725,
+            "ground_truth_options": [
+                "Battle Creek, Michigan"
+            ],
+            "prediction": "United States",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 116.853515625
+        },
+        {
+            "index": 313,
+            "prompt_length": 3948,
+            "ground_truth_options": [
+                "Am Rong"
+            ],
+            "prediction": "Ava DuVernay",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 123.998779296875
+        },
+        {
+            "index": 314,
+            "prompt_length": 3733,
+            "ground_truth_options": [
+                "29"
+            ],
+            "prediction": "29",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 117.1064453125
+        },
+        {
+            "index": 315,
+            "prompt_length": 3472,
+            "ground_truth_options": [
+                "Bay Ridge, Brooklyn"
+            ],
+            "prediction": "Los Angeles",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 108.8546142578125
+        },
+        {
+            "index": 316,
+            "prompt_length": 3656,
+            "ground_truth_options": [
+                "Northumbrian"
+            ],
+            "prediction": "Northumbrian",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 114.70361328125
+        },
+        {
+            "index": 317,
+            "prompt_length": 2796,
+            "ground_truth_options": [
+                "Oldham County"
+            ],
+            "prediction": "Oldham County",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 87.513671875
+        },
+        {
+            "index": 318,
+            "prompt_length": 3963,
+            "ground_truth_options": [
+                "no"
+            ],
+            "prediction": "No",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 124.3465576171875
+        },
+        {
+            "index": 319,
+            "prompt_length": 3959,
+            "ground_truth_options": [
+                "The Saturdays"
+            ],
+            "prediction": "Una Healy and Rachel Stevens",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 124.378173828125
+        },
+        {
+            "index": 320,
+            "prompt_length": 2296,
+            "ground_truth_options": [
+                "Serri"
+            ],
+            "prediction": "Neither",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 71.642333984375
+        },
+        {
+            "index": 321,
+            "prompt_length": 2697,
+            "ground_truth_options": [
+                "international football competition"
+            ],
+            "prediction": "FIFA Women's World Cup",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 84.4468994140625
+        },
+        {
+            "index": 322,
+            "prompt_length": 3649,
+            "ground_truth_options": [
+                "1944"
+            ],
+            "prediction": "1944",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 114.4822998046875
+        },
+        {
+            "index": 323,
+            "prompt_length": 3014,
+            "ground_truth_options": [
+                "Wilmette"
+            ],
+            "prediction": "Chicago",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 94.3427734375
+        },
+        {
+            "index": 324,
+            "prompt_length": 2793,
+            "ground_truth_options": [
+                "Oedipus Rex"
+            ],
+            "prediction": "Oedipus Rex",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 87.4820556640625
+        },
+        {
+            "index": 325,
+            "prompt_length": 3972,
+            "ground_truth_options": [
+                "Steve Jobs"
+            ],
+            "prediction": "Both appeared in the 2015 film \"Manhattan Romance\"",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 125.010498046875
+        },
+        {
+            "index": 326,
+            "prompt_length": 3137,
+            "ground_truth_options": [
+                "Kodos"
+            ],
+            "prediction": "Kang",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 98.2315673828125
+        },
+        {
+            "index": 327,
+            "prompt_length": 3005,
+            "ground_truth_options": [
+                "My Beautiful Dark Twisted Fantasy"
+            ],
+            "prediction": "Graduation",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 94.08984375
+        },
+        {
+            "index": 328,
+            "prompt_length": 4025,
+            "ground_truth_options": [
+                "yes"
+            ],
+            "prediction": "Yes",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 126.3067626953125
+        },
+        {
+            "index": 329,
+            "prompt_length": 2771,
+            "ground_truth_options": [
+                "Spring city"
+            ],
+            "prediction": "The Spring city",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 86.7232666015625
+        },
+        {
+            "index": 330,
+            "prompt_length": 3752,
+            "ground_truth_options": [
+                "Philadelphia"
+            ],
+            "prediction": "Philadelphia.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 117.7071533203125
+        },
+        {
+            "index": 331,
+            "prompt_length": 2677,
+            "ground_truth_options": [
+                "a minor basilica"
+            ],
+            "prediction": "minor basilica",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 83.7513427734375
+        },
+        {
+            "index": 332,
+            "prompt_length": 3143,
+            "ground_truth_options": [
+                "150 million copies"
+            ],
+            "prediction": "150 million",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 98.4844970703125
+        },
+        {
+            "index": 333,
+            "prompt_length": 3393,
+            "ground_truth_options": [
+                "Aqua"
+            ],
+            "prediction": "Aqua",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 106.3253173828125
+        },
+        {
+            "index": 334,
+            "prompt_length": 4032,
+            "ground_truth_options": [
+                "1964"
+            ],
+            "prediction": "Reynolds v. Sims",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 126.6229248046875
+        },
+        {
+            "index": 335,
+            "prompt_length": 2957,
+            "ground_truth_options": [
+                "CBS"
+            ],
+            "prediction": "The Good Wife",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 92.6038818359375
+        },
+        {
+            "index": 336,
+            "prompt_length": 2797,
+            "ground_truth_options": [
+                "Pakistani"
+            ],
+            "prediction": "Pakistan",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 87.4820556640625
+        },
+        {
+            "index": 337,
+            "prompt_length": 3284,
+            "ground_truth_options": [
+                "The Four Seasons"
+            ],
+            "prediction": "The Four Seasons",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 102.9423828125
+        },
+        {
+            "index": 338,
+            "prompt_length": 3711,
+            "ground_truth_options": [
+                "no"
+            ],
+            "prediction": "No",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 116.3792724609375
+        },
+        {
+            "index": 339,
+            "prompt_length": 3896,
+            "ground_truth_options": [
+                "76,416"
+            ],
+            "prediction": "76,416",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 122.3231201171875
+        },
+        {
+            "index": 340,
+            "prompt_length": 2953,
+            "ground_truth_options": [
+                "Matt Flynn"
+            ],
+            "prediction": "Matt Flynn",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 92.44580078125
+        },
+        {
+            "index": 341,
+            "prompt_length": 3809,
+            "ground_truth_options": [
+                "Happy Death Day"
+            ],
+            "prediction": "Happy Death Day",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 119.5408935546875
+        },
+        {
+            "index": 342,
+            "prompt_length": 3858,
+            "ground_truth_options": [
+                "Gerard \"Gerry\" Adams"
+            ],
+            "prediction": "Gerry Adams",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 121.0584716796875
+        },
+        {
+            "index": 343,
+            "prompt_length": 2947,
+            "ground_truth_options": [
+                "The Battle of Belleau Wood"
+            ],
+            "prediction": "The Battle of Belleau Wood occurred earlier, in 1918, while the Battle of Peleliu occurred in 1944.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 93.078125
+        },
+        {
+            "index": 344,
+            "prompt_length": 3668,
+            "ground_truth_options": [
+                "Australian Defence Force"
+            ],
+            "prediction": "Royal Australian Navy",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 115.0830078125
+        },
+        {
+            "index": 345,
+            "prompt_length": 3575,
+            "ground_truth_options": [
+                "about 450,000"
+            ],
+            "prediction": "Bratislava",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 112.1427001953125
+        },
+        {
+            "index": 346,
+            "prompt_length": 2649,
+            "ground_truth_options": [
+                "West Point Iron and Cannon Foundry"
+            ],
+            "prediction": "West Point Foundry",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 82.897705078125
+        },
+        {
+            "index": 347,
+            "prompt_length": 3912,
+            "ground_truth_options": [
+                "Jack Ryan"
+            ],
+            "prediction": "Jack Ryan",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 122.7657470703125
+        },
+        {
+            "index": 348,
+            "prompt_length": 2755,
+            "ground_truth_options": [
+                "tomato"
+            ],
+            "prediction": "None",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 86.1541748046875
+        },
+        {
+            "index": 349,
+            "prompt_length": 4046,
+            "ground_truth_options": [
+                "2009"
+            ],
+            "prediction": "2009",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 127.033935546875
+        },
+        {
+            "index": 350,
+            "prompt_length": 3990,
+            "ground_truth_options": [
+                "September 8, 2017"
+            ],
+            "prediction": "2017",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 125.263427734375
+        },
+        {
+            "index": 351,
+            "prompt_length": 2366,
+            "ground_truth_options": [
+                "Edward Franklin Albee III"
+            ],
+            "prediction": "Edward Albee",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 73.918701171875
+        },
+        {
+            "index": 352,
+            "prompt_length": 3777,
+            "ground_truth_options": [
+                "yes"
+            ],
+            "prediction": "Yes",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 118.4659423828125
+        },
+        {
+            "index": 353,
+            "prompt_length": 3876,
+            "ground_truth_options": [
+                "impresario"
+            ],
+            "prediction": "None",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 121.595947265625
+        },
+        {
+            "index": 354,
+            "prompt_length": 3271,
+            "ground_truth_options": [
+                "no"
+            ],
+            "prediction": "No",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 102.4681396484375
+        },
+        {
+            "index": 355,
+            "prompt_length": 3014,
+            "ground_truth_options": [
+                "no"
+            ],
+            "prediction": "No",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 94.3427734375
+        },
+        {
+            "index": 356,
+            "prompt_length": 3694,
+            "ground_truth_options": [
+                "Worcester County"
+            ],
+            "prediction": "Worcester",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 115.841796875
+        },
+        {
+            "index": 357,
+            "prompt_length": 2823,
+            "ground_truth_options": [
+                "Farrell"
+            ],
+            "prediction": "J. G. Farrell",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 88.462158203125
+        },
+        {
+            "index": 358,
+            "prompt_length": 3194,
+            "ground_truth_options": [
+                "modern-day New York City"
+            ],
+            "prediction": "New York City",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 100.096923828125
+        },
+        {
+            "index": 359,
+            "prompt_length": 3810,
+            "ground_truth_options": [
+                "Dan Lin, Roy Lee, Phil Lord and Christopher Miller"
+            ],
+            "prediction": "Phil Lord and Christopher Miller",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 119.6357421875
+        },
+        {
+            "index": 360,
+            "prompt_length": 3862,
+            "ground_truth_options": [
+                "reigning monarch of the United Kingdom"
+            ],
+            "prediction": "Buckingham Palace",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 121.1849365234375
+        },
+        {
+            "index": 361,
+            "prompt_length": 3164,
+            "ground_truth_options": [
+                "Saint Louis County"
+            ],
+            "prediction": "Hibbing",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 99.1168212890625
+        },
+        {
+            "index": 362,
+            "prompt_length": 2775,
+            "ground_truth_options": [
+                "Phil Collins"
+            ],
+            "prediction": "Phil Collins",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 86.818115234375
+        },
+        {
+            "index": 363,
+            "prompt_length": 4074,
+            "ground_truth_options": [
+                "video game"
+            ],
+            "prediction": "video game",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 127.8875732421875
+        },
+        {
+            "index": 364,
+            "prompt_length": 3080,
+            "ground_truth_options": [
+                "Cambridge University"
+            ],
+            "prediction": "Not mentioned",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 96.4610595703125
+        },
+        {
+            "index": 365,
+            "prompt_length": 2423,
+            "ground_truth_options": [
+                "Love Streams"
+            ],
+            "prediction": "Love Streams",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 75.689208984375
+        },
+        {
+            "index": 366,
+            "prompt_length": 3794,
+            "ground_truth_options": [
+                "Lowe's"
+            ],
+            "prediction": "Lowe's",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 119.0350341796875
+        },
+        {
+            "index": 367,
+            "prompt_length": 2751,
+            "ground_truth_options": [
+                "first freshman to finish as the runner-up"
+            ],
+            "prediction": "freshman",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 86.0277099609375
+        },
+        {
+            "index": 368,
+            "prompt_length": 3059,
+            "ground_truth_options": [
+                "1987"
+            ],
+            "prediction": "1988",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 95.8287353515625
+        },
+        {
+            "index": 369,
+            "prompt_length": 4029,
+            "ground_truth_options": [
+                "James Packer"
+            ],
+            "prediction": "James Packer.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 126.528076171875
+        },
+        {
+            "index": 370,
+            "prompt_length": 3520,
+            "ground_truth_options": [
+                "documentary"
+            ],
+            "prediction": "Documentary",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 110.340576171875
+        },
+        {
+            "index": 371,
+            "prompt_length": 2370,
+            "ground_truth_options": [
+                "England"
+            ],
+            "prediction": "England.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 74.0135498046875
+        },
+        {
+            "index": 372,
+            "prompt_length": 2799,
+            "ground_truth_options": [
+                "Jung Yun-ho"
+            ],
+            "prediction": "Yunho",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 87.576904296875
+        },
+        {
+            "index": 373,
+            "prompt_length": 3700,
+            "ground_truth_options": [
+                "Hot toddy"
+            ],
+            "prediction": "Hot toddy",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 116.0947265625
+        },
+        {
+            "index": 374,
+            "prompt_length": 4032,
+            "ground_truth_options": [
+                "2017"
+            ],
+            "prediction": "2017",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 126.59130859375
+        },
+        {
+            "index": 375,
+            "prompt_length": 2893,
+            "ground_truth_options": [
+                "The Late Late Show"
+            ],
+            "prediction": "Gay Byrne",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 90.548828125
+        },
+        {
+            "index": 376,
+            "prompt_length": 3005,
+            "ground_truth_options": [
+                "Hudson Bay Mining and Smelting Company"
+            ],
+            "prediction": "Hudson Bay Mining and Smelting Company",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 94.279541015625
+        },
+        {
+            "index": 377,
+            "prompt_length": 3026,
+            "ground_truth_options": [
+                "Scandinavian design"
+            ],
+            "prediction": "Scandinavian design",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 94.7537841796875
+        },
+        {
+            "index": 378,
+            "prompt_length": 3373,
+            "ground_truth_options": [
+                "Constantine"
+            ],
+            "prediction": "Constantine",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 105.724609375
+        },
+        {
+            "index": 379,
+            "prompt_length": 2733,
+            "ground_truth_options": [
+                "comparable to the seven Wonders of the World"
+            ],
+            "prediction": "None",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 85.4586181640625
+        },
+        {
+            "index": 380,
+            "prompt_length": 3584,
+            "ground_truth_options": [
+                "Jos\u00e9 Echegaray y Eizaguirre"
+            ],
+            "prediction": "Jos\u00e9 Echegaray y Eizaguirre",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 112.7117919921875
+        },
+        {
+            "index": 381,
+            "prompt_length": 3980,
+            "ground_truth_options": [
+                "Knowsley United Women"
+            ],
+            "prediction": "Knowsley United Women",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 125.010498046875
+        },
+        {
+            "index": 382,
+            "prompt_length": 4072,
+            "ground_truth_options": [
+                "Blue"
+            ],
+            "prediction": "Atomic Kitten",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 127.85595703125
+        },
+        {
+            "index": 383,
+            "prompt_length": 3161,
+            "ground_truth_options": [
+                "Valhalla Highlands Historic District"
+            ],
+            "prediction": "Cold Spring Historic District",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 99.085205078125
+        },
+        {
+            "index": 384,
+            "prompt_length": 3925,
+            "ground_truth_options": [
+                "Philip K. Dick"
+            ],
+            "prediction": "Philip K. Dick",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 123.239990234375
+        },
+        {
+            "index": 385,
+            "prompt_length": 3169,
+            "ground_truth_options": [
+                "New York Giants"
+            ],
+            "prediction": "New York Giants",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 99.3065185546875
+        },
+        {
+            "index": 386,
+            "prompt_length": 3251,
+            "ground_truth_options": [
+                "1961"
+            ],
+            "prediction": "1961",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 101.8990478515625
+        },
+        {
+            "index": 387,
+            "prompt_length": 3792,
+            "ground_truth_options": [
+                "Copenhagen"
+            ],
+            "prediction": "Volbeat",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 118.9718017578125
+        },
+        {
+            "index": 388,
+            "prompt_length": 4067,
+            "ground_truth_options": [
+                "middle America"
+            ],
+            "prediction": "William Allen White",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 127.6978759765625
+        },
+        {
+            "index": 389,
+            "prompt_length": 3280,
+            "ground_truth_options": [
+                "Soha Ali Khan"
+            ],
+            "prediction": "Soha Ali Khan",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 102.8475341796875
+        },
+        {
+            "index": 390,
+            "prompt_length": 2875,
+            "ground_truth_options": [
+                "South Korean horror film"
+            ],
+            "prediction": "Horror",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 89.9481201171875
+        },
+        {
+            "index": 391,
+            "prompt_length": 3859,
+            "ground_truth_options": [
+                "Lucas Stephen Grabeel"
+            ],
+            "prediction": "Lucas Grabeel",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 121.1533203125
+        },
+        {
+            "index": 392,
+            "prompt_length": 3790,
+            "ground_truth_options": [
+                "American supernatural psychological horror film"
+            ],
+            "prediction": "Rings",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 118.876953125
+        },
+        {
+            "index": 393,
+            "prompt_length": 3888,
+            "ground_truth_options": [
+                "Essex"
+            ],
+            "prediction": "Essex",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 121.975341796875
+        },
+        {
+            "index": 394,
+            "prompt_length": 3066,
+            "ground_truth_options": [
+                "Peter Hall"
+            ],
+            "prediction": "John Whiting",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 96.050048828125
+        },
+        {
+            "index": 395,
+            "prompt_length": 3476,
+            "ground_truth_options": [
+                "French Open"
+            ],
+            "prediction": "French Open",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 108.9810791015625
+        },
+        {
+            "index": 396,
+            "prompt_length": 2446,
+            "ground_truth_options": [
+                "Bismarck"
+            ],
+            "prediction": "Bismarck",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 76.4796142578125
+        },
+        {
+            "index": 397,
+            "prompt_length": 3571,
+            "ground_truth_options": [
+                "Premier League club Manchester United and the England national team"
+            ],
+            "prediction": "Manchester United",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 111.984619140625
+        },
+        {
+            "index": 398,
+            "prompt_length": 2680,
+            "ground_truth_options": [
+                "Massive Entertainment"
+            ],
+            "prediction": "Ubisoft",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 83.782958984375
+        },
+        {
+            "index": 399,
+            "prompt_length": 3439,
+            "ground_truth_options": [
+                "Portal A Interactive"
+            ],
+            "prediction": "Portal A Interactive",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 107.8428955078125
+        },
+        {
+            "index": 400,
+            "prompt_length": 3328,
+            "ground_truth_options": [
+                "King George IV"
+            ],
+            "prediction": "King George IV",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 104.33349609375
+        },
+        {
+            "index": 401,
+            "prompt_length": 2538,
+            "ground_truth_options": [
+                "Icehouse pieces"
+            ],
+            "prediction": "Icehouse pieces",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 79.356689453125
+        },
+        {
+            "index": 402,
+            "prompt_length": 2607,
+            "ground_truth_options": [
+                "ZZ Top"
+            ],
+            "prediction": "ZZ Top",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 81.506591796875
+        },
+        {
+            "index": 403,
+            "prompt_length": 3172,
+            "ground_truth_options": [
+                "1977"
+            ],
+            "prediction": "1977",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 99.4013671875
+        },
+        {
+            "index": 404,
+            "prompt_length": 3822,
+            "ground_truth_options": [
+                "1963 to 1991"
+            ],
+            "prediction": "1974-1983",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 120.0467529296875
+        },
+        {
+            "index": 405,
+            "prompt_length": 3272,
+            "ground_truth_options": [
+                "Laurel, Mississippi"
+            ],
+            "prediction": "Laurel, Mississippi",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 102.56298828125
+        },
+        {
+            "index": 406,
+            "prompt_length": 2956,
+            "ground_truth_options": [
+                "arose on the \"Playboy\" magazine pattern in the 1970s."
+            ],
+            "prediction": "Gallery",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 92.509033203125
+        },
+        {
+            "index": 407,
+            "prompt_length": 3924,
+            "ground_truth_options": [
+                "Langston Hughes"
+            ],
+            "prediction": "Ian McEwan",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 123.2083740234375
+        },
+        {
+            "index": 408,
+            "prompt_length": 4018,
+            "ground_truth_options": [
+                "728,000 ft\u00b2"
+            ],
+            "prediction": "The Dimond Center, which is 728,000 ft\u00b2 (67,000 m\u00b2).",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 126.6861572265625
+        },
+        {
+            "index": 409,
+            "prompt_length": 4064,
+            "ground_truth_options": [
+                "Royce da 5'9\" (Bad) and Eminem (Evil)"
+            ],
+            "prediction": "Royce da 5'9\" (Bad) and Eminem (Evil).",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 128.0772705078125
+        },
+        {
+            "index": 410,
+            "prompt_length": 3274,
+            "ground_truth_options": [
+                "Shanghai"
+            ],
+            "prediction": "Shanghai",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 102.56298828125
+        },
+        {
+            "index": 411,
+            "prompt_length": 3915,
+            "ground_truth_options": [
+                "Terry Gilliam"
+            ],
+            "prediction": "Terry Gilliam",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 122.8922119140625
+        },
+        {
+            "index": 412,
+            "prompt_length": 3311,
+            "ground_truth_options": [
+                "Lithuanian-born French"
+            ],
+            "prediction": "Lithuanian",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 103.7960205078125
+        },
+        {
+            "index": 413,
+            "prompt_length": 3628,
+            "ground_truth_options": [
+                "a family member"
+            ],
+            "prediction": "Death",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 113.755126953125
+        },
+        {
+            "index": 414,
+            "prompt_length": 3538,
+            "ground_truth_options": [
+                "Douglas Jackson"
+            ],
+            "prediction": "Douglas Jackson",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 110.9412841796875
+        },
+        {
+            "index": 415,
+            "prompt_length": 3841,
+            "ground_truth_options": [
+                "Dirty Pretty Things"
+            ],
+            "prediction": "Dirty Pretty Things",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 120.5526123046875
+        },
+        {
+            "index": 416,
+            "prompt_length": 3088,
+            "ground_truth_options": [
+                "The Itchy & Scratchy Show"
+            ],
+            "prediction": "Krusty the Clown",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 96.7772216796875
+        },
+        {
+            "index": 417,
+            "prompt_length": 2902,
+            "ground_truth_options": [
+                "Viaport Rotterdam"
+            ],
+            "prediction": "Wilton Mall",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 90.864990234375
+        },
+        {
+            "index": 418,
+            "prompt_length": 3102,
+            "ground_truth_options": [
+                "signing free agent Chauncey Billups"
+            ],
+            "prediction": "Chauncey Billups",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 97.25146484375
+        },
+        {
+            "index": 419,
+            "prompt_length": 4046,
+            "ground_truth_options": [
+                "51,271"
+            ],
+            "prediction": "51,271",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 127.0655517578125
+        },
+        {
+            "index": 420,
+            "prompt_length": 2345,
+            "ground_truth_options": [
+                "no"
+            ],
+            "prediction": "No",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 73.1915283203125
+        },
+        {
+            "index": 421,
+            "prompt_length": 3284,
+            "ground_truth_options": [
+                "documentary"
+            ],
+            "prediction": "documentary",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 102.879150390625
+        },
+        {
+            "index": 422,
+            "prompt_length": 2765,
+            "ground_truth_options": [
+                "fifteen"
+            ],
+            "prediction": "15",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 86.501953125
+        },
+        {
+            "index": 423,
+            "prompt_length": 2770,
+            "ground_truth_options": [
+                "defensive coordinator"
+            ],
+            "prediction": "Defensive coordinator",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 86.6600341796875
+        },
+        {
+            "index": 424,
+            "prompt_length": 4027,
+            "ground_truth_options": [
+                "1.95 m"
+            ],
+            "prediction": "1.95",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 126.46484375
+        },
+        {
+            "index": 425,
+            "prompt_length": 2942,
+            "ground_truth_options": [
+                "MGM Resorts International"
+            ],
+            "prediction": "MGM",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 92.06640625
+        },
+        {
+            "index": 426,
+            "prompt_length": 3854,
+            "ground_truth_options": [
+                "Bedknobs and Broomsticks"
+            ],
+            "prediction": "Bedknobs and Broomsticks is older, released in 1971, while The Muppet Christmas Carol was released in 1992.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 121.78564453125
+        },
+        {
+            "index": 427,
+            "prompt_length": 3989,
+            "ground_truth_options": [
+                "Holston River"
+            ],
+            "prediction": "Holston River Valley",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 125.263427734375
+        },
+        {
+            "index": 428,
+            "prompt_length": 3166,
+            "ground_truth_options": [
+                "British Conservative Party"
+            ],
+            "prediction": "Conservative",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 99.1484375
+        },
+        {
+            "index": 429,
+            "prompt_length": 4079,
+            "ground_truth_options": [
+                "Wes Archer"
+            ],
+            "prediction": "Wes Archer",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 128.045654296875
+        },
+        {
+            "index": 430,
+            "prompt_length": 2696,
+            "ground_truth_options": [
+                "Geelong Football Club"
+            ],
+            "prediction": "Geelong Football Club",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 84.3836669921875
+        },
+        {
+            "index": 431,
+            "prompt_length": 3479,
+            "ground_truth_options": [
+                "no"
+            ],
+            "prediction": "No",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 109.0443115234375
+        },
+        {
+            "index": 432,
+            "prompt_length": 3338,
+            "ground_truth_options": [
+                "Delmer Lawrence Daves"
+            ],
+            "prediction": "Delmer Daves",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 104.6812744140625
+        },
+        {
+            "index": 433,
+            "prompt_length": 2905,
+            "ground_truth_options": [
+                "X Ambassadors"
+            ],
+            "prediction": "Test Icicles",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 90.991455078125
+        },
+        {
+            "index": 434,
+            "prompt_length": 2333,
+            "ground_truth_options": [
+                "Walt Disney Productions"
+            ],
+            "prediction": "Walt Disney Productions",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 72.8753662109375
+        },
+        {
+            "index": 435,
+            "prompt_length": 3038,
+            "ground_truth_options": [
+                "2844 km"
+            ],
+            "prediction": "2844 km",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 95.1964111328125
+        },
+        {
+            "index": 436,
+            "prompt_length": 2852,
+            "ground_truth_options": [
+                "located in Olathe, Kansas"
+            ],
+            "prediction": "Olathe East High School is located in Olathe, Kansas, United States.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 89.7584228515625
+        },
+        {
+            "index": 437,
+            "prompt_length": 3574,
+            "ground_truth_options": [
+                "\"The Ring\" magazine"
+            ],
+            "prediction": "BoxRec",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 112.111083984375
+        },
+        {
+            "index": 438,
+            "prompt_length": 2928,
+            "ground_truth_options": [
+                "1909"
+            ],
+            "prediction": "1909",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 91.68701171875
+        },
+        {
+            "index": 439,
+            "prompt_length": 4038,
+            "ground_truth_options": [
+                "Sun Valley, Idaho"
+            ],
+            "prediction": "Sun Valley, Idaho",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 126.8126220703125
+        },
+        {
+            "index": 440,
+            "prompt_length": 2549,
+            "ground_truth_options": [
+                "President of the United States"
+            ],
+            "prediction": "Vice President of the United States",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 79.79931640625
+        },
+        {
+            "index": 441,
+            "prompt_length": 2710,
+            "ground_truth_options": [
+                "The Bears and I"
+            ],
+            "prediction": "Buena Vista Downtown Historic District",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 84.8895263671875
+        },
+        {
+            "index": 442,
+            "prompt_length": 3972,
+            "ground_truth_options": [
+                "Patterns of Sexual Behavior"
+            ],
+            "prediction": "Patterns of Sexual Behavior",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 124.7259521484375
+        },
+        {
+            "index": 443,
+            "prompt_length": 1608,
+            "ground_truth_options": [
+                "Larry Richard Drake"
+            ],
+            "prediction": "Larry Drake",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 49.9219970703125
+        },
+        {
+            "index": 444,
+            "prompt_length": 2949,
+            "ground_truth_options": [
+                "Bedknobs and Broomsticks"
+            ],
+            "prediction": "Bedknobs and Broomsticks",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 92.4774169921875
+        },
+        {
+            "index": 445,
+            "prompt_length": 4023,
+            "ground_truth_options": [
+                "46 Albert Square, Walford, London E20"
+            ],
+            "prediction": "46 Albert Square, Walford, London E20",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 126.59130859375
+        },
+        {
+            "index": 446,
+            "prompt_length": 3882,
+            "ground_truth_options": [
+                "Darkroom"
+            ],
+            "prediction": "Darkroom",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 121.8172607421875
+        },
+        {
+            "index": 447,
+            "prompt_length": 3443,
+            "ground_truth_options": [
+                "Phoenix Television"
+            ],
+            "prediction": "Phoenix Satellite Television Holdings Ltd",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 108.0325927734375
+        },
+        {
+            "index": 448,
+            "prompt_length": 4050,
+            "ground_truth_options": [
+                "Planet Terror"
+            ],
+            "prediction": "From Dusk Till Dawn",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 127.2236328125
+        },
+        {
+            "index": 449,
+            "prompt_length": 3070,
+            "ground_truth_options": [
+                "\"Peshwa\" (Prime Minister)"
+            ],
+            "prediction": "Peshwa",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 96.176513671875
+        },
+        {
+            "index": 450,
+            "prompt_length": 3217,
+            "ground_truth_options": [
+                "Donald Trump Jr."
+            ],
+            "prediction": "Donald Trump Jr.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 100.855712890625
+        },
+        {
+            "index": 451,
+            "prompt_length": 3205,
+            "ground_truth_options": [
+                "Royal Governor Lord Dunmore"
+            ],
+            "prediction": "Lord Dunmore",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 100.4447021484375
+        },
+        {
+            "index": 452,
+            "prompt_length": 2539,
+            "ground_truth_options": [
+                "Graduados"
+            ],
+            "prediction": "Graduados",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 79.3883056640625
+        },
+        {
+            "index": 453,
+            "prompt_length": 3195,
+            "ground_truth_options": [
+                "Private Secretary and Treasurer"
+            ],
+            "prediction": "Private Secretary and Treasurer",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 100.16015625
+        },
+        {
+            "index": 454,
+            "prompt_length": 3479,
+            "ground_truth_options": [
+                "no"
+            ],
+            "prediction": "No",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 109.0443115234375
+        },
+        {
+            "index": 455,
+            "prompt_length": 3860,
+            "ground_truth_options": [
+                "Ogallala Aquifer"
+            ],
+            "prediction": "Ogallala Aquifer",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 121.216552734375
+        },
+        {
+            "index": 456,
+            "prompt_length": 2850,
+            "ground_truth_options": [
+                "ibn\u02bfArab\u012b"
+            ],
+            "prediction": "Ibn Arabi",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 89.220947265625
+        },
+        {
+            "index": 457,
+            "prompt_length": 4039,
+            "ground_truth_options": [
+                "various deities, beings, and heroes"
+            ],
+            "prediction": "Tales of various deities, beings, and heroes derived from numerous sources from both before and after the pagan period, including medieval manuscripts, archaeological representations, and folk tradition.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 127.792724609375
+        },
+        {
+            "index": 458,
+            "prompt_length": 3936,
+            "ground_truth_options": [
+                "1984 South Asian Games"
+            ],
+            "prediction": "1984 South Asian Games",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 123.6510009765625
+        },
+        {
+            "index": 459,
+            "prompt_length": 3116,
+            "ground_truth_options": [
+                "Viscount Cranborne"
+            ],
+            "prediction": "Viscount Cranborne",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 97.6624755859375
+        },
+        {
+            "index": 460,
+            "prompt_length": 3789,
+            "ground_truth_options": [
+                "Kansas City crime family"
+            ],
+            "prediction": "Kansas City crime family",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 118.940185546875
+        },
+        {
+            "index": 461,
+            "prompt_length": 3820,
+            "ground_truth_options": [
+                "Albert Park"
+            ],
+            "prediction": "Albert Park",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 119.8570556640625
+        },
+        {
+            "index": 462,
+            "prompt_length": 3845,
+            "ground_truth_options": [
+                "in 1896"
+            ],
+            "prediction": "2003",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 120.6790771484375
+        },
+        {
+            "index": 463,
+            "prompt_length": 2333,
+            "ground_truth_options": [
+                "Unbreakable"
+            ],
+            "prediction": "Unbreakable",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 72.8753662109375
+        },
+        {
+            "index": 464,
+            "prompt_length": 3479,
+            "ground_truth_options": [
+                "Apatosaurus"
+            ],
+            "prediction": "Apatosaurus",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 109.13916015625
+        },
+        {
+            "index": 465,
+            "prompt_length": 4087,
+            "ground_truth_options": [
+                "BraveStarr"
+            ],
+            "prediction": "BraveStarr",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 128.3302001953125
+        },
+        {
+            "index": 466,
+            "prompt_length": 2452,
+            "ground_truth_options": [
+                "Sanskrit"
+            ],
+            "prediction": "In Sanskrit, 'Gaja' means Elephant, and 'Brishta' is the back portion of a sitting elephant.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 77.3648681640625
+        },
+        {
+            "index": 467,
+            "prompt_length": 3008,
+            "ground_truth_options": [
+                "Battle of Guam"
+            ],
+            "prediction": "The Battle of Manila (1574) occurred first.",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 94.46923828125
+        },
+        {
+            "index": 468,
+            "prompt_length": 4054,
+            "ground_truth_options": [
+                "Martha Coolidge"
+            ],
+            "prediction": "Martha Coolidge",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 127.286865234375
+        },
+        {
+            "index": 469,
+            "prompt_length": 3453,
+            "ground_truth_options": [
+                "Mr. Church"
+            ],
+            "prediction": "Mr. Church",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 108.2855224609375
+        },
+        {
+            "index": 470,
+            "prompt_length": 3725,
+            "ground_truth_options": [
+                "director"
+            ],
+            "prediction": "Film production.",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 116.8851318359375
+        },
+        {
+            "index": 471,
+            "prompt_length": 3837,
+            "ground_truth_options": [
+                "Executive Search, Board Consulting"
+            ],
+            "prediction": "Executive Search, Board Consulting and Leadership Strategy Services.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 120.6474609375
+        },
+        {
+            "index": 472,
+            "prompt_length": 2506,
+            "ground_truth_options": [
+                "author"
+            ],
+            "prediction": "authors",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 78.28173828125
+        },
+        {
+            "index": 473,
+            "prompt_length": 4091,
+            "ground_truth_options": [
+                "The Catholic Church in Ireland"
+            ],
+            "prediction": "The Catholic Church in Ireland",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 128.5198974609375
+        },
+        {
+            "index": 474,
+            "prompt_length": 4047,
+            "ground_truth_options": [
+                "Edmonton, Alberta"
+            ],
+            "prediction": "Edmonton, Alberta.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 127.09716796875
+        },
+        {
+            "index": 475,
+            "prompt_length": 3806,
+            "ground_truth_options": [
+                "Charles Joseph"
+            ],
+            "prediction": "Joe Scarborough",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 119.4144287109375
+        },
+        {
+            "index": 476,
+            "prompt_length": 4089,
+            "ground_truth_options": [
+                "NCAA Division I FBS football"
+            ],
+            "prediction": "FBS",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 128.36181640625
+        },
+        {
+            "index": 477,
+            "prompt_length": 3531,
+            "ground_truth_options": [
+                "Tea Moderna"
+            ],
+            "prediction": "H\u00e4nt Extra",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 110.7515869140625
+        },
+        {
+            "index": 478,
+            "prompt_length": 3150,
+            "ground_truth_options": [
+                "Armenian"
+            ],
+            "prediction": "Armenia.",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 98.6741943359375
+        },
+        {
+            "index": 479,
+            "prompt_length": 2423,
+            "ground_truth_options": [
+                "Kathleen O'Brien"
+            ],
+            "prediction": "Kathleen O'Brien",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 75.7208251953125
+        },
+        {
+            "index": 480,
+            "prompt_length": 4021,
+            "ground_truth_options": [
+                "Warner Bros"
+            ],
+            "prediction": "Warner Bros.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 126.2435302734375
+        },
+        {
+            "index": 481,
+            "prompt_length": 3338,
+            "ground_truth_options": [
+                "Mot\u00f6rhead"
+            ],
+            "prediction": "Mot\u00f6rhead",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 104.649658203125
+        },
+        {
+            "index": 482,
+            "prompt_length": 3904,
+            "ground_truth_options": [
+                "commentary on Isaac Newton's book \"Principia\""
+            ],
+            "prediction": "She translated and commented on Isaac Newton's book \"Principia\" containing basic laws of physics, including a profound contribution to Newtonian mechanics\u2014the postulate of an additional conservation law for total energy.",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 123.7142333984375
+        },
+        {
+            "index": 483,
+            "prompt_length": 3400,
+            "ground_truth_options": [
+                "no"
+            ],
+            "prediction": "No",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 106.546630859375
+        },
+        {
+            "index": 484,
+            "prompt_length": 2772,
+            "ground_truth_options": [
+                "four months in jail"
+            ],
+            "prediction": "Perjury and obstruction of justice.",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 86.88134765625
+        },
+        {
+            "index": 485,
+            "prompt_length": 4056,
+            "ground_truth_options": [
+                "1963"
+            ],
+            "prediction": "1963",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 127.35009765625
+        },
+        {
+            "index": 486,
+            "prompt_length": 2526,
+            "ground_truth_options": [
+                "rock"
+            ],
+            "prediction": "Rock",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 78.9140625
+        },
+        {
+            "index": 487,
+            "prompt_length": 4051,
+            "ground_truth_options": [
+                "Gateways"
+            ],
+            "prediction": "Gateways",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 127.160400390625
+        },
+        {
+            "index": 488,
+            "prompt_length": 2608,
+            "ground_truth_options": [
+                "zona glomerulosa"
+            ],
+            "prediction": "Aldosterone",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 81.5382080078125
+        },
+        {
+            "index": 489,
+            "prompt_length": 2890,
+            "ground_truth_options": [
+                "33"
+            ],
+            "prediction": "33",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 90.4539794921875
+        },
+        {
+            "index": 490,
+            "prompt_length": 2822,
+            "ground_truth_options": [
+                "Mississippi University for Women"
+            ],
+            "prediction": "Whole Woman's Health v. Hellerstedt",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 88.525390625
+        },
+        {
+            "index": 491,
+            "prompt_length": 3737,
+            "ground_truth_options": [
+                "Stacey Kent"
+            ],
+            "prediction": "Stacey Kent",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 117.2645263671875
+        },
+        {
+            "index": 492,
+            "prompt_length": 3580,
+            "ground_truth_options": [
+                "1966"
+            ],
+            "prediction": "1966",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 112.30078125
+        },
+        {
+            "index": 493,
+            "prompt_length": 3147,
+            "ground_truth_options": [
+                "DTM"
+            ],
+            "prediction": "IndyCar",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 98.579345703125
+        },
+        {
+            "index": 494,
+            "prompt_length": 3492,
+            "ground_truth_options": [
+                "2002"
+            ],
+            "prediction": "2002",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 109.5185546875
+        },
+        {
+            "index": 495,
+            "prompt_length": 3567,
+            "ground_truth_options": [
+                "4,613"
+            ],
+            "prediction": "4,613",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 111.92138671875
+        },
+        {
+            "index": 496,
+            "prompt_length": 3590,
+            "ground_truth_options": [
+                "lower Manhattan"
+            ],
+            "prediction": "lower Manhattan.",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 112.616943359375
+        },
+        {
+            "index": 497,
+            "prompt_length": 2559,
+            "ground_truth_options": [
+                "137th"
+            ],
+            "prediction": "137th",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 80.0206298828125
+        },
+        {
+            "index": 498,
+            "prompt_length": 3131,
+            "ground_truth_options": [
+                "Ronald Wilson Reagan"
+            ],
+            "prediction": "Ronald Reagan",
+            "score": 0.0,
+            "correct": false,
+            "kv_cache_mb": 98.073486328125
+        },
+        {
+            "index": 499,
+            "prompt_length": 4064,
+            "ground_truth_options": [
+                "documentary"
+            ],
+            "prediction": "documentary",
+            "score": 1.0,
+            "correct": true,
+            "kv_cache_mb": 127.539794921875
+        }
+    ]
+}

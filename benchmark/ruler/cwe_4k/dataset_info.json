@@ -1,0 +1,61 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "cwe_4k",
+  "dataset_name": "ruler-llama3-1_m",
+  "dataset_size": 6237036,
+  "description": "",
+  "download_size": 2847578,
+  "features": {
+    "index": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answers": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "length": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "predictions": {
+      "self-long/SelfLong-Llama3.1-8B-Instruct": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "self-long/SelfLong-Llama3.2-1B-Instruct": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "self-long/SelfLong-Llama3.2-3B-Instruct": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 9084614,
+  "splits": {
+    "validation": {
+      "name": "validation",
+      "num_bytes": 6237036,
+      "num_examples": 500,
+      "dataset_name": "ruler-llama3-1_m"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
